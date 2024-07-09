@@ -1,4 +1,4 @@
-//package com.astrowaydiploy.user;
+//package com.mauhurtika.astrologyapp;
 //
 //import io.flutter.embedding.android.FlutterFragmentActivity;
 //import com.otpless.otplessflutter.OtplessFlutterPlugin;

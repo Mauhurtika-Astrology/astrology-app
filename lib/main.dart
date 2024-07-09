@@ -1144,7 +1144,7 @@ class _MyAppState extends State<MyApp> {
                 Locale('mr', 'IN'), //marathi
                 Locale('ta', 'IN'),
               ],
-              title: 'Astroway CustomerApp',
+              title: 'Mauhurtika Astrology',
               initialRoute: "SplashScreen",
               home: SplashScreen(),
             );
