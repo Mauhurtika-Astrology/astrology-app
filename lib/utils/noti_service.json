@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "astroway-diploy",
+  "private_key_id": "20b7b1ac3496c2253666a79ff6d0c0ce5813095f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCqFQy8/R1BpJff\n8LH6yFYKbEerklKsIH3cOPxVfbgCmKFpd9XyZvc3WWqI9onZg3QCRHWjwNwQ46P9\nVZH6UibMUodp6IqtrqPVA3B+YrxPb0GYclykby8p42AsocXSXe/ssYeVgI+lj9ky\nPwxy+BX2bJjJs6hkTyWZDy19pYjx2Fb6N0vsytnYICuYmKw8hMsfd395iUXu8Rtl\nCzM2g71FAF2Y3+fU72ZTbg2W62NHMDCHYxJRupIQzC2hTLmZN8sRGQol99ZSY4xr\nw3MCbQpLCdD7PXYyl6dJPN3hcTH+k+zkSmM0qSXC7Jo3XLvV+VXd9AiQn6RP8qRe\npDGWEpmdAgMBAAECggEAHUsd1AkGOnGWRNgoV0ic5ROsLmU3vvSjqMPZ1gGeqTfP\niSI+I49PYeWRH0DTEjb9Soyu9EK5xGDotC/CQipXC1blgryt8ecDyaLbg7EOvOGt\nGwwLX7jUlzLVtCoyr55FPe9/qiSn2PyTDH/mbYDEC5q9n/PE+23UTG3cSGkz0m9H\nwPt0dvoz0XQ2WryzkbuD6srx7UWkeFP5qamAsBpRTSfixE1n/40j5/PZRZQFmerT\n1tV260SWaUk+vleU51ySIarSu4iCrUNyTCllAKrdKOrnhdW7YSn8nb+cWkEhbKH7\nutyFdAaKp8wzsXoUmH8gDITa+2aOOvpfLSjriN0d4QKBgQDif18qKcgscfH9pixd\nVlT535dZRp95s3Y8+Ew4tIQUD7iLpWAKmKqyT9klfVVdOveJpV7JZxfe1Z29BmYz\n2SKBYSt9MS7iFVR7/M0qf1bi1I8vl1sGzXi14wAT8SWCZrM8HkvHyvP5sx1A4tVH\n6fqeRbajDXfJA/Ac5lSVLNMPLQKBgQDAPH4JdjN0iXVXmY/OhVGbbEk7V8/efYlc\njmY5VDJGAbDUf5byEWOGtWu2+hDJQWhL8aXORPg7x1nweQJeLNKhsP6y7PpBaYUl\nYD0HltrrA6vwISpntXe3oNCL46y06sZoVlAQ/Bh44eXKfN7cFtIyBI+8cFSZ6Os4\n1nzAQv66MQKBgG4T70FDmyiWnEBlQYx/R79E/n6CB0GTibRqDElG2iYR2ePslLex\nqMwOaH+C4Tj1TpbUCzQg6YYAFbBnasZqEg4FFqi6fYmdSjkUDPZJewW0vn4ntjKh\nK7hiQYhvm4Y7uYJPSw8nwNkrRt1hILzZp1bClNe71OqaAllZS+RQK6dlAoGAEuSf\nGnz0d6qezro36PsvVxAgbmWl917tJhyUrWO6ASlfYLMdebL9zhp8eKJBDhaQko4w\nVoJuxylDjJ/H/Mt49A06KwmhWtZtEIxR0zIfV+OnfVU1HrY2CuUSOf1pVuqQD2cU\nPWcZXKAO/oShPo47oFDUc5eyqOG8ZHyoDBlJgbECgYEAwsgJOsa1eeXMhA3oylXD\nrR7ehqUCMCLQF/hSXaI50zhQNcK08f709M8QHsXFB5qvwcKspOP0o5QIm7phm9fi\nrqO2QfEY6ksxVNuuO2nRSIghGzglgME8aNNbzJnm0GfJFdQN2uRflnK7XGgGulOH\nPjon41UL02tXUEzbFhjr2yg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-nnrom@astroway-diploy.iam.gserviceaccount.com",
+  "client_id": "118243690510425066312",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-nnrom%40astroway-diploy.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
