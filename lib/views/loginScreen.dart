@@ -134,7 +134,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  Text('Login to Astroway',
+                                  Text('Login to Mauhurtika',
                                           style: Get.textTheme.titleMedium!
                                               .copyWith(
                                                   color: Colors.black,
