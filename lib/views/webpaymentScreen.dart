@@ -67,7 +67,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
 
             if (url
                 .toString()
-                .startsWith("https://astroway.diploy.in/payment-success")) {
+                .startsWith("https://mauhurtika.com/payment-success")) {
               await global.splashController.getCurrentUserData();
               await historyController.getChatHistory(
                   global.currentUserId!, false);
@@ -83,7 +83,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
               );
             } else if (url
                 .toString()
-                .startsWith("https://astroway.diploy.in/payment-failed")) {
+                .startsWith("https://mauhurtika.com/payment-failed")) {
               Get.off(() => BottomNavigationBarScreen(index: 0));
               Fluttertoast.showToast(
                 msg: "Payment Failed!",
