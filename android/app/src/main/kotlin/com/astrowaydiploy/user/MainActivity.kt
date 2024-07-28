@@ -1,4 +1,4 @@
-package com.mauhurtika.astrologyapp
+package com.astrowaydiploy.user
 import io.flutter.embedding.android.FlutterActivity
 import androidx.annotation.NonNull
 import io.flutter.embedding.engine.FlutterEngine
@@ -14,7 +14,7 @@ import android.content.Intent
 import android.util.Log
 import com.otpless.otplessflutter.OtplessFlutterPlugin
 class MainActivity: FlutterActivity() {
-    private val CHANNEL_NAME = "com.mauhurtika.astrologyapp/channel_test"
+    private val CHANNEL_NAME = "com.astrowaydiploy.user/channel_test"
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
         MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL_NAME).setMethodCallHandler {

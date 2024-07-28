@@ -13,6 +13,7 @@ import 'package:AstrowayCustomer/utils/services/api_helper.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:googleapis_auth/auth_io.dart';
@@ -22,8 +23,10 @@ import 'package:http/http.dart' as http;
 import 'package:flutter/services.dart';
 import 'package:flutter_share/flutter_share.dart';
 import 'package:get/get.dart';
+import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:url_launcher/url_launcher.dart';
 
 import '../controllers/loginController.dart';
 import '../controllers/networkController.dart';
@@ -55,27 +58,27 @@ final DateFormat formatter = DateFormat("dd MMM yy, hh:mm a");
 
 String stripeBaseApi = 'https://api.stripe.com/v1';
 
-String baseUrl = "https://mauhurtika.com/api";
-String imgBaseurl = "https://mauhurtika.com/";
-String webBaseUrl = "https://mauhurtika.com/api/";
+String baseUrl = "https://astroway.diploy.in/api";
+String imgBaseurl = "https://astroway.diploy.in/";
+String webBaseUrl = "https://astroway.diploy.in/api/";
 String appMode = "LIVE";
 Map<String, dynamic> appParameters = {
   "LIVE": {
-    "apiUrl": "https://mauhurtika.com/api",
-    "imageBaseurl": "https://mauhurtika.com/",
+    "apiUrl": "https://astroway.diploy.in/api",
+    "imageBaseurl": "https://astroway.diploy.in/",
   },
   "DEV": {
-    "apiUrl": "http://mauhurtika.com/api",
-    "imageBaseurl": "http://mauhurtika.com/",
+    "apiUrl": "http://192.168.29.223:8001/api",
+    "imageBaseurl": "http://192.168.29.223:8001/",
   }
 };
 String agoraChannelName = ""; //valid 24hr
 String agoraToken = "";
-String channelName = "mauhurtikaLive";
+String channelName = "astrowayLive";
 String agoraLiveToken = "";
-String liveChannelName = "mauhurtikaLive";
-String agoraChatUserId = "mauhurtikaLive";
-String chatChannelName = "mauhurtikaLive";
+String liveChannelName = "astrowayLive";
+String agoraChatUserId = "astrowayLive";
+String chatChannelName = "astrowayLive";
 String agoraChatToken = "";
 String encodedString = "&&";
 Color coursorColor = Color(0xFF757575);
@@ -146,7 +149,7 @@ Future<void> callOnFcmApiSendPushNotifications({
       }
     };
     final url = Uri.parse(
-        'https://fcm.googleapis.com/v1/projects/mauhurtika-pre/messages:send');
+        'https://fcm.googleapis.com/v1/projects/astroway-diploy/messages:send');
     final response = await http.post(
       url,
       headers: headers,
@@ -770,3 +773,117 @@ Future<Map<String, String>> getApiHeaders(bool authorizationRequired) async {
   apiHeader.addAll({"Accept": "application/json"});
   return apiHeader;
 }
+// String url = "https://1.envato.market/da0XDM";
+// String diployurl = "https://diploy.in";
+// warningDialog(BuildContext context) {
+//   // BuildContext context = Get.context!;
+//   showDialog(
+//     context: context,
+//     builder: (BuildContext context) {
+//       return Container(
+//         margin: EdgeInsets.symmetric(horizontal: 2.w),
+//         child: AlertDialog(
+//           surfaceTintColor: Colors.white,
+//           insetPadding: EdgeInsets.symmetric(horizontal: 1.w),
+//           backgroundColor: Colors.white,
+//           contentPadding: EdgeInsets.zero,
+//           shape: const RoundedRectangleBorder(
+//             borderRadius: BorderRadius.all(Radius.circular(10)),
+//           ),
+//           title: Column(
+//             children: [
+//               Container(
+//                 padding: EdgeInsets.all(1.w),
+//                 child: Center(
+//                   child: Text(
+//                     "Notice: ",
+//                     style: Get.theme.textTheme.displayLarge!.copyWith(
+//                       color: Colors.black,
+//                       fontSize: 18.sp,
+//                       fontWeight: FontWeight.w600,
+//                       fontStyle: FontStyle.normal,
+//                     ),
+//                   ).tr(),
+//                 ),
+//               ),
+//               Container(
+//                 padding: EdgeInsets.all(1.w),
+//                 child: Center(
+//                   child: RichText(
+//                     text: TextSpan(
+//                       text:
+//                       'Beware of scammer & nulled codes. Some websites are using our name & assets to mislead like astroway.in & more (Buy the astroway source code from codecanyon & ',
+//                       style: const TextStyle(color: Colors.black),
+//                       children: <TextSpan>[
+//                         TextSpan(
+//                           text: 'diploy.in ',
+//                           style: const TextStyle(
+//                               color: Colors.blue,
+//                               decoration: TextDecoration.underline),
+//                           recognizer: TapGestureRecognizer()
+//                             ..onTap = () async {
+//                               if (await canLaunch(diployurl)) {
+//                                 await launch(diployurl);
+//                               } else {
+//                                 throw 'Could not launch $diployurl';
+//                               }
+//                             },
+//                         ),
+//                         const TextSpan(text: ' at \$96 only: '),
+//                         TextSpan(
+//                           text: url,
+//                           style: const TextStyle(
+//                               color: Colors.blue,
+//                               decoration: TextDecoration.underline),
+//                           recognizer: TapGestureRecognizer()
+//                             ..onTap = () async {
+//                               if (await canLaunch(url)) {
+//                                 await launch(url);
+//                               } else {
+//                                 throw 'Could not launch $url';
+//                               }
+//                             },
+//                         ),
+//                       ],
+//                     ),
+//                   ),
+//                 ),
+//               ),
+//               Padding(
+//                 padding: const EdgeInsets.only(top: 4),
+//                 child: SizedBox(
+//                   width: MediaQuery.of(context).size.width * 0.6,
+//                   child: ElevatedButton(
+//                     onPressed: () {
+//                       Get.back();
+//                       // Get.back();
+//                     },
+//                     style: ElevatedButton.styleFrom(
+//                       backgroundColor: Colors.white,
+//                       shape: RoundedRectangleBorder(
+//                         borderRadius: BorderRadius.circular(5.w),
+//                         side: BorderSide(color: Colors.pink.shade200),
+//                       ),
+//                       shadowColor: Colors.transparent,
+//                     ),
+//                     child: Text(
+//                       'OK',
+//                       style: TextStyle(
+//                         fontSize: 16.sp,
+//                         fontWeight: FontWeight.normal,
+//                         color: Colors.black,
+//                       ),
+//                     ).tr(),
+//                   ),
+//                 ),
+//               ),
+//             ],
+//           ),
+//           actionsAlignment: MainAxisAlignment.spaceBetween,
+//           actionsPadding:
+//           const EdgeInsets.only(bottom: 15, left: 15, right: 15),
+//         ),
+//       );
+//     },
+//   );
+// }

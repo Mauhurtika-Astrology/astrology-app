@@ -45,8 +45,14 @@ class _DailyHoroscopeScreenState extends State<DailyHoroscopeScreen> {
 
   LiveController liveController = Get.find<LiveController>();
 
-
   int selectHoroscope = 1;
+  @override
+  void initState() {
+    // WidgetsBinding.instance.addPostFrameCallback((_) {
+    //   global.warningDialog(context);
+    // });
+    super.initState();
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(

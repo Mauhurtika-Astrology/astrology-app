@@ -481,7 +481,7 @@ class KudliMatchingResultScreen extends StatelessWidget {
                                               //   uriPrefix: 'https://astrowaydiploy.page.link',
                                               //   link: Uri.parse("https://astrowaydiploy.page.link/userProfile?screen=astroProfile"),
                                               //   androidParameters: AndroidParameters(
-                                              //     packageName: 'com.mauhurtika.astrologyapp',
+                                              //     packageName: 'com.astrowaydiploy.user',
                                               //     minimumVersion: 1,
                                               //   ),
                                               // );
@@ -2882,7 +2882,7 @@ class KudliMatchingResultScreen extends StatelessWidget {
                                               //   uriPrefix: 'https://astrowaydiploy.page.link',
                                               //   link: Uri.parse("https://astrowaydiploy.page.link/userProfile?screen=astroProfile"),
                                               //   androidParameters: AndroidParameters(
-                                              //     packageName: 'com.mauhurtika.astrologyapp',
+                                              //     packageName: 'com.astrowaydiploy.user',
                                               //     minimumVersion: 1,
                                               //   ),
                                               // );

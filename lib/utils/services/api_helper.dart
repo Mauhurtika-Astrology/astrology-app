@@ -1512,8 +1512,7 @@ class APIHelper {
           Uri.parse('$baseUrl/callRequest/acceptCallRequest'),
           headers: await global.getApiHeaders(true),
           body: json.encode({"callId": callId}));
-      debugPrint('done : $response');
-      dynamic recordList;
+     dynamic recordList;
       if (response.statusCode == 200) {
       } else {
         recordList = null;

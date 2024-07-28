@@ -18,32 +18,32 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: "AIzaSyA_PPxVS1Xj5QuxkGybsFTG7ZUuiU0usu8",
+    apiKey: "AIzaSyAyiZi-oi6QilI2X-7hNcCgtbmRT2WLAhs",
     authDomain: "astroway-diploy.firebaseapp.com",
-    projectId: "mauhurtika-pre",
-    storageBucket: "mauhurtika-pre.appspot.com",
+    projectId: "astroway-diploy",
+    storageBucket: "astroway-diploy.appspot.com",
     messagingSenderId: "381086206621", //381086206621
-    appId: "1:948854405434:android:0be0bda84ebb3e64513803",
+    appId: "1:381086206621:android:b5c7542da161358d32e274",
     measurementId: "G-KBPRBBZRYC",
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: "AIzaSyA_PPxVS1Xj5QuxkGybsFTG7ZUuiU0usu8",
-    appId: "1:948854405434:android:0be0bda84ebb3e64513803",
-    messagingSenderId: "948854405434",
-    projectId: "mauhurtika-pre",
-    storageBucket: "mauhurtika-pre.appspot.com",
-    iosBundleId: 'com.mauhurtika.astrologyapp',
+    apiKey: "AIzaSyDsrsuJ2tx83rRPdTrAUKQRNhmmCTbEzxA",
+    appId: "1:381086206621:ios:50ef1a4a2bd8342b32e274",
+    messagingSenderId: "381086206621",
+    projectId: "astroway-diploy",
+    storageBucket: "astroway-diploy.appspot.com",
+    iosBundleId: 'com.astrowaydiploy.user',
     measurementId: "G-KBPRBBZRYC",
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-      apiKey: "AIzaSyA_PPxVS1Xj5QuxkGybsFTG7ZUuiU0usu8",
+      apiKey: "AIzaSyAyiZi-oi6QilI2X-7hNcCgtbmRT2WLAhs",
       authDomain: "astroway-diploy.firebaseapp.com",
-      databaseURL: "https://mauhurtika-pre-default-rtdb.firebaseio.com",
-      projectId: "mauhurtika-pre",
-      storageBucket: "mauhurtika-pre.appspot.com",
-      messagingSenderId: "948854405434",
-      appId: "1:948854405434:android:0be0bda84ebb3e64513803",
+      databaseURL: "https://astroway-diploy-default-rtdb.firebaseio.com",
+      projectId: "astroway-diploy",
+      storageBucket: "astroway-diploy.appspot.com",
+      messagingSenderId: "381086206621",
+      appId: "1:381086206621:web:f09b5db876e2323d32e274",
       measurementId: "G-XY1LD81J6X");
 }

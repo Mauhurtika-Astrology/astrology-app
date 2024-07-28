@@ -19,7 +19,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
           )),
       body: InAppWebView(
         initialUrlRequest:
-            URLRequest(url: WebUri('https://mauhurtika.com/privacy-policy-mauhurtika')),
+            URLRequest(url: WebUri('https://astroway.diploy.in/privacyPolicy')),
         initialSettings: InAppWebViewSettings(
           javaScriptEnabled: true,
           transparentBackground: true,

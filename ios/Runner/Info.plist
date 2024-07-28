@@ -55,7 +55,7 @@
 			<string>Bundle Id</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.mauhurtika.astrologyapp</string>
+				<string>com.astrowaydiploy.user</string>
 			</array>
 		</dict>
 	</array>

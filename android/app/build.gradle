@@ -23,12 +23,12 @@ if (localPropertiesFile.exists()) {
 
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
 if (flutterVersionCode == null) {
-    flutterVersionCode = '5'
+    flutterVersionCode = '12'
 }
 
 def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
-    flutterVersionName = '1.7'
+    flutterVersionName = '2.0'
 }
 
 def keystoreProperties = new Properties()
@@ -65,7 +65,7 @@ dexOptions {
     }
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.mauhurtika.astrologyapp"
+        applicationId "com.astrowaydiploy.user"
         minSdkVersion 22
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
@@ -98,7 +98,7 @@ dexOptions {
 //            useProguard true
             //signingConfig signingConfigs.debug
             //useProguard true
-            minifyEnabled false
+            minifyEnabled true
             shrinkResources false
             //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             
@@ -107,7 +107,7 @@ dexOptions {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), ' proguard-rules.pro'
         }
     }
-    namespace 'com.mauhurtika.astrologyapp'
+    namespace 'com.astrowaydiploy.user'
 
 }
 

@@ -42,6 +42,7 @@ class CallScreen extends StatefulWidget {
 }
 
 class _CallScreenState extends State<CallScreen> {
+  final drawerKey = new GlobalKey<ScaffoldState>();
   FiltterTabController filtterTabController = Get.find<FiltterTabController>();
 
   SkillController skillController = Get.find<SkillController>();
@@ -87,12 +88,13 @@ class _CallScreenState extends State<CallScreen> {
       },
       child: Scaffold(
         backgroundColor: Colors.white,
+        key: drawerKey,
         drawer: DrawerWidget(),
         appBar: CustomAppBar(
           flagforCategory:widget.flag,
           flagId: 2,
           onBackPressed: () {},
-          scaffoldKey: GlobalKey<ScaffoldState>(),
+          scaffoldKey: drawerKey,
           title: 'Call with Astrologer',
           titleStyle: Get.theme.primaryTextTheme.titleSmall!.copyWith(
             fontWeight: FontWeight.w500,

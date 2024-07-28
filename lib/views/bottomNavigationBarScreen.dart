@@ -75,6 +75,7 @@ class BottomNavigationBarScreen extends StatelessWidget {
                     elevation: 5,
                     items: List.generate(iconList.length, (index) {
                       if (index == 0) {
+
                         if (bottomNavigationController.isValueShow == false) {
                           bottomNavigationController.isValueShow = true;
                         }
@@ -159,6 +160,7 @@ class BottomNavigationBarScreen extends StatelessWidget {
                     }),
                     onTap: (index) async {
                       if (index == 0) {
+                       // global.warningDialog(context);
                         bottomNavigationController.setBottomIndex(
                             index, bottomNavigationController.historyIndex);
                       } else if (index == 1 || index == 3) {

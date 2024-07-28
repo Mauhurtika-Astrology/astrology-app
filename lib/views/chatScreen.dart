@@ -79,11 +79,12 @@ class _ChatScreenState extends State<ChatScreen> {
       },
       child: Scaffold(
         backgroundColor: Colors.white,
+        key: drawerKey,
         drawer: DrawerWidget(),
         appBar: CustomAppBar(
           flagId: 1,
           onBackPressed: () {},
-          scaffoldKey: GlobalKey<ScaffoldState>(),
+          scaffoldKey: drawerKey,
           title: 'Chat with Astrologer',
           titleStyle: Get.theme.primaryTextTheme.titleSmall!.copyWith(
             fontWeight: FontWeight.w500,

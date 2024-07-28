@@ -215,7 +215,7 @@ class DrawerWidget extends StatelessWidget {
                   onTap: () async {
                     if (Platform.isAndroid) {
                       StoreRedirect.redirect(
-                        androidAppId: "com.mauhurtika.astrologyapp",
+                        androidAppId: "com.astrowaydiploy.user",
                       );
                     }
                   },

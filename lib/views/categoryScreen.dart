@@ -56,7 +56,7 @@ class CategoryScreen extends StatelessWidget {
                             bottomNavigationController.astrologerList.clear();
                             bottomNavigationController.isAllDataLoaded = false;
                             bottomNavigationController.update();
-                            chatController.isSelected=index;
+                            chatController.isSelected=index+1;
                             chatController.update();
                             await bottomNavigationController.astroCat(
                                 id: astrologyCat.categoryList[index].id!,

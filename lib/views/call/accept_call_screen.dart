@@ -397,6 +397,9 @@ class _AcceptCallScreenState extends State<AcceptCallScreen> {
       channelProfile: ChannelProfileType.channelProfileCommunication,
     );
     print('in join method of customer call');
+    print('token:- ${widget.token!}');
+    print('token:- ${widget.callChannel!}');
+    print('token:- ${uid}');
     await agoraEngine.joinChannel(
       token: widget.token!,
       channelId: widget.callChannel!,

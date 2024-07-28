@@ -8,13 +8,13 @@
      <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
    <application
-        android:label="Mauhurtika"
+        android:label="Astroway CustomerApp"
         android:name="${applicationName}"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name="com.mauhurtika.astrologyapp.MainActivity"
+            android:name="com.astrowaydiploy.user.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
@@ -39,11 +39,11 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data
                     android:scheme="https"
-                    android:host="com.mauhurtika.astrologyapp"
+                    android:host="com.astrowaydiploy.user"
                     />
                 <data
                     android:host="otpless"
-                    android:scheme= "otpless.GNA12Z051UN9SZJ5HSI5"/>
+                    android:scheme= "otpless.egn337d0735vtpmtqweq"/>
             </intent-filter>
         </activity>
         <meta-data android:name="com.google.android.geo.API_KEY"
