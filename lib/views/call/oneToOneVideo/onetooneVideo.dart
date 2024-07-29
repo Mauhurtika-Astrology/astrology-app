@@ -489,11 +489,6 @@ class OneToOneLiveScreenState extends State<OneToOneLiveScreen> {
               onchannelLeaveCallback: (isLiveEnded) async {
                 // stopRecord();
                 // stopRecord2();
-                await callController.endCall(
-                    widget.callId,
-                    _callController.totalSeconds,
-                    global.agoraSid1,
-                    global.agoraSid2);
                 if (isLiveEnded) {
                   global.showOnlyLoaderDialog(context);
                   if (timer2 != null) {
@@ -525,11 +520,6 @@ class OneToOneLiveScreenState extends State<OneToOneLiveScreen> {
               onchannelLeaveCallback: (isLiveEnded) async {
                 //  await   stopRecord();
                 // await  stopRecord2();
-                await callController.endCall(
-                    widget.callId,
-                    _callController.totalSeconds,
-                    global.agoraSid1,
-                    global.agoraSid2);
 
                 if (isLiveEnded) {
                   global.showOnlyLoaderDialog(context);

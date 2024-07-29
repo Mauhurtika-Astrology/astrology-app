@@ -134,6 +134,7 @@ class SplashController extends GetxController {
                   user = CurrentUserModel();
                   sp!.clear();
 
+
                   homeController.myOrders.clear();
                   Get.off(() => LoginScreen());
                 }

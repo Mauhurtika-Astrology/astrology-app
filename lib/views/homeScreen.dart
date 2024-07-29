@@ -96,6 +96,11 @@ class _HomeScreenState extends State<HomeScreen> {
   ChatController chatController = Get.find<ChatController>();
 
   @override
+  void initState() {
+
+    super.initState();
+  }
+  @override
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
@@ -953,6 +958,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         body: RefreshIndicator(
           onRefresh: () async {
+             //global.warningDialog(context);
             await homeController.getBanner();
             await homeController.getBlog();
             await homeController.getAstroNews();
@@ -1370,6 +1376,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   children: [
                                     GestureDetector(
                                       onTap: () async {
+
                                         Get.to(() => CategoryScreen());
                                       },
                                       child: Container(
@@ -4892,11 +4899,29 @@ class _HomeScreenState extends State<HomeScreen> {
             );
           }),
         ),
+        floatingActionButton: InkWell(
+          onTap: (){
+           // global.warningDialog(context);
+          },
+          child: Container(
+            margin: EdgeInsets.symmetric(
+              vertical: 6.h
+            ),
+            child:CircleAvatar(
+              radius: 20.sp,
+              backgroundColor: Colors.black,
+              backgroundImage: AssetImage("assets/images/warning.png",
+              ),
+            ),
+          ),
+        ),
+       //  floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       ),
     );
   }
 
   void refreshIt() async {
+   // global.warningDialog(context);
     splashController.currentLanguageCode =
         homeController.lan[homeController.selectedIndex].lanCode;
     splashController.update();

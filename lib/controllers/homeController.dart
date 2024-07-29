@@ -250,11 +250,11 @@ class HomeController extends GetxController {
               myOrders = result.recordList;
               update();
             } else {
-              global.showToast(
-                message: 'Failed to get my orders',
-                textColor: global.textColor,
-                bgColor: global.toastBackGoundColor,
-              );
+              // global.showToast(
+              //   message: 'Failed to get my orders',
+              //   textColor: global.textColor,
+              //   bgColor: global.toastBackGoundColor,
+              // );
             }
           });
         }

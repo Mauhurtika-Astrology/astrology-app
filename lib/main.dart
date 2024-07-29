@@ -70,7 +70,7 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
     if (message.data['body'] != null) {
       messageData = json.decode((message.data['body']));
     }
-    if (message.notification!.title ==
+    if (message.data["title"] ==
         "For starting the timer in other audions for video and audio") {
       Future.delayed(Duration(milliseconds: 500)).then((value) async {
         await _localNotifications.cancelAll();
@@ -90,7 +90,7 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
           liveController.update();
         }
       }
-    } else if (message.notification!.title == "For Live accept/reject") {
+    } else if (message.data["title"] == "For Live accept/reject") {
       Future.delayed(Duration(milliseconds: 500)).then((value) async {
         await _localNotifications.cancelAll();
       });
@@ -131,7 +131,7 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
           isFollow: isFollow,
         );
       }
-    } else if (message.notification!.title ==
+    } else if (message.data["title"] ==
         "For accepting time while user already splitted") {
       Future.delayed(Duration(milliseconds: 500)).then((value) async {
         await _localNotifications.cancelAll();
@@ -143,7 +143,7 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
       liveController.joinUserName = message.data["joinUserName"] ?? "";
       liveController.joinUserProfile = message.data["joinUserProfile"] ?? "";
       liveController.update();
-    } else if (message.notification!.title ==
+    } else if (message.data["title"] ==
         "Notification for customer support status update") {
       Future.delayed(Duration(milliseconds: 500)).then((value) async {
         await _localNotifications.cancelAll();
@@ -153,7 +153,7 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
         customerSupportController.status = message1["status"] ?? "WAITING";
         customerSupportController.update();
       }
-    } else if (message.notification!.title == "End chat from astrologer") {
+    } else if (message.data["title"] == "End chat from astrologer") {
       Future.delayed(Duration(milliseconds: 500)).then((value) async {
         await _localNotifications.cancelAll();
       });
@@ -164,7 +164,7 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
       chatController.chatBottom = false;
       chatController.isAstrologerEndedChat = true;
       chatController.update();
-    } else if (message.notification!.title == "Astrologer Leave call") {
+    } else if (message.data["title"] == "Astrologer Leave call") {
       Future.delayed(Duration(milliseconds: 500)).then((value) async {
         await _localNotifications.cancelAll();
       });
@@ -307,68 +307,6 @@ CustomerSupportController customerSupportController =
     Get.put(CustomerSupportController());
 ChatController chatController = Get.put(ChatController());
 CallController callController = Get.put(CallController());
-// void handleLinkData(PendingDynamicLinkData? data) async {
-//   final Uri uri = data!.link;
-//   String? screen;
-//   // ignore: unnecessary_null_comparison
-//   if (uri != null) {
-//     final queryParams = uri.queryParameters;
-//     if (queryParams.length > 0) {
-//       screen = queryParams["screen"]!;
-//     }
-//     if (screen != null) {
-//       global.sp = await SharedPreferences.getInstance();
-//       if (global.sp!.getString("currentUser") != null) {
-//         if (screen == "liveStreaming") {
-//           String? token = "";
-//           String channelName = queryParams["channelName"]!;
-//           token = await bottomController.getTokenFromChannelName(channelName);
-//           String astrologerName = queryParams["astrologerName"]!;
-//           int astrologerId = int.parse(queryParams["astrologerId"]!);
-//           double charge = double.parse(queryParams["charge"]!);
-//           double videoCallCharge =
-//               double.parse(queryParams["videoCallCharge"]!);
-//           bottomController.anotherLiveAstrologers = bottomController
-//               .liveAstrologer
-//               .where((element) => element.astrologerId != astrologerId)
-//               .toList();
-//           bottomController.update();
-//           await liveController.getWaitList(channelName);
-//           int index2 = liveController.waitList
-//               .indexWhere((element) => element.userId == global.currentUserId);
-//           if (index2 != -1) {
-//             liveController.isImInWaitList = true;
-//             liveController.update();
-//           } else {
-//             liveController.isImInWaitList = false;
-//             liveController.update();
-//           }
-//           liveController.isImInLive = true;
-//           liveController.isJoinAsChat = false;
-//           liveController.isLeaveCalled = false;
-//           await bottomController.getAstrologerbyId(astrologerId);
-//           bool isFollow = bottomController.astrologerbyId[0].isFollow!;
-//           liveController.update();
-//           Get.to(() => LiveAstrologerScreen(
-//                 token: token!,
-//                 channel: channelName,
-//                 astrologerName: astrologerName,
-//                 astrologerId: astrologerId,
-//                 isFromHome: true,
-//                 charge: charge,
-//                 isForLiveCallAcceptDecline: false,
-//                 videoCallCharge: videoCallCharge,
-//                 isFollow: isFollow,
-//               ));
-//           // need to set navigation to live astologer page.
-//         }
-//       } else {
-//         Get.to(() => LoginScreen());
-//       }
-//     }
-//   }
-// }
-
 class _MyAppState extends State<MyApp> {
   FlutterLocalNotificationsPlugin? flutterLocalNotificationsPlugin;
   AndroidNotificationChannel channel = const AndroidNotificationChannel(
@@ -384,8 +322,7 @@ class _MyAppState extends State<MyApp> {
     //Sent Notification When App is Running || Background Message is Automatically Sent by Firebase
     FirebaseMessaging.onMessage.listen((RemoteMessage message) async {
       log("onMessageRecived");
-      log("${message}");
-      if (message.notification!.title == "For Live accept/reject") {
+      if (message.data["title"] == "For Live accept/reject") {
         if (liveController.isImInLive == true) {
           String astroName = message.data["astroName"];
           int astroId = message.data['astroId'] != null
@@ -423,7 +360,7 @@ class _MyAppState extends State<MyApp> {
             isFollow: isFollow,
           );
         }
-      } else if (message.notification!.title ==
+      } else if (message.data["title"] ==
           "For starting the timer in other audions for video and audio") {
         if (liveController.isImInLive == true) {
           int waitListId = int.parse(message.data["waitListId"].toString());
@@ -440,7 +377,7 @@ class _MyAppState extends State<MyApp> {
             liveController.update();
           }
         }
-      } else if (message.notification!.title ==
+      } else if (message.data["title"] ==
           "For accepting time while user already splitted") {
         int timeInInt = int.parse(message.data["timeInInt"].toString());
         liveController.endTime = DateTime.now().millisecondsSinceEpoch +
@@ -448,14 +385,14 @@ class _MyAppState extends State<MyApp> {
         liveController.joinUserName = message.data["joinUserName"] ?? "";
         liveController.joinUserProfile = message.data["joinUserProfile"] ?? "";
         liveController.update();
-      } else if (message.notification!.title ==
+      } else if (message.data["title"] ==
           "Notification for customer support status update") {
         var message1 = jsonDecode(message.data['body']);
         if (customerSupportController.isIn) {
           customerSupportController.status = message1["status"] ?? "WAITING";
           customerSupportController.update();
         }
-      } else if (message.notification!.title == "End chat from astrologer") {
+      } else if (message.data["title"] == "End chat from astrologer") {
         chatController.showBottomAcceptChat = false;
         global.sp = await SharedPreferences.getInstance();
         global.sp!.remove('chatBottom');
@@ -463,7 +400,7 @@ class _MyAppState extends State<MyApp> {
         chatController.chatBottom = false;
         chatController.isAstrologerEndedChat = true;
         chatController.update();
-      } else if (message.notification!.title == "Astrologer Leave call") {
+      } else if (message.data["title"] == "Astrologer Leave call") {
         callController.showBottomAcceptCall = false;
         global.sp!.remove('callBottom');
         global.sp!.setInt('callBottom', 0);
@@ -525,7 +462,7 @@ class _MyAppState extends State<MyApp> {
                               Padding(
                                 padding: EdgeInsets.only(top: 10),
                                 child: Text(
-                                  "${message.notification!.title}",
+                                  "${message.data["title"]}",
                                   style: TextStyle(
                                       color: Colors.grey, fontSize: 14),
                                   textAlign: TextAlign.center,
@@ -734,7 +671,7 @@ class _MyAppState extends State<MyApp> {
                               Padding(
                                 padding: EdgeInsets.only(top: 10),
                                 child: Text(
-                                  "${message.notification!.title}",
+                                  "${message.data["title"]}",
                                   style: TextStyle(
                                       color: Colors.grey, fontSize: 14),
                                   textAlign: TextAlign.center,
@@ -993,8 +930,8 @@ class _MyAppState extends State<MyApp> {
     if (global.sp!.getString("currentUser") != null) {
       await flutterLocalNotificationsPlugin.show(
         0,
-        payload.notification!.title,
-        payload.notification!.body,
+        payload.data["title"],
+        payload.data["description"],
         platformChannelSpecifics,
         payload: json.encode(payload.data.toString()),
       );
@@ -1144,7 +1081,7 @@ class _MyAppState extends State<MyApp> {
                 Locale('mr', 'IN'), //marathi
                 Locale('ta', 'IN'),
               ],
-              title: 'Mauhurtika Astrology',
+              title: 'Astroway CustomerApp',
               initialRoute: "SplashScreen",
               home: SplashScreen(),
             );

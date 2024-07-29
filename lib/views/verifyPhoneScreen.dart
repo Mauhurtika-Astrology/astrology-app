@@ -128,8 +128,6 @@ class VerifyPhoneScreen extends StatelessWidget {
                           arg["phone"] = "${phoneNumber}";
                           arg["countryCode"] = "+91";
                           arg["otp"] = "${loginController.smsCode}";
-                          print("otp:- ${loginController.smsCode}");
-                          print("arg:- ${arg}");
                           global.showOnlyLoaderDialog(context);
                           loginController.otplessFlutterPlugin.startHeadless(loginController.onHeadlessResultVerify, arg);
                           // PhoneAuthCredential credential =

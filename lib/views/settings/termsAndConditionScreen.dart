@@ -18,7 +18,7 @@ class TermAndConditionScreen extends StatelessWidget {
           )),
       body: InAppWebView(
         initialUrlRequest: URLRequest(
-            url: WebUri('https://mauhurtika.com/terms-and-conditions-of-usage')),
+            url: WebUri('https://astroway.diploy.in/terms-condition')),
         initialSettings: InAppWebViewSettings(
           javaScriptEnabled: true,
           transparentBackground: true,

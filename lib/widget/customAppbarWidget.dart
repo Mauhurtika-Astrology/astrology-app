@@ -21,28 +21,27 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       backgroundColor: bgColor,
       leading: InkWell(
         onTap: () {
-          if (scaffoldKey.currentState!.isDrawerOpen) {
-            scaffoldKey.currentState!.closeDrawer();
+          if(flagforCategory==1)
+          {
             Get.back();
-          } else {
-            scaffoldKey.currentState!.openDrawer();
           }
+          else{
+            if (scaffoldKey.currentState!.isDrawerOpen) {
+              scaffoldKey.currentState!.closeDrawer();
+              Get.back();
+            } else {
+              scaffoldKey.currentState!.openDrawer();
+            }
+          }
+
         },
-        child: InkWell(
-          onTap: (){
-            if(flagforCategory==1)
-              {
-                Get.back();
-              }
-          },
-          child: Icon(
-            flagId == 1
-                ? Icons.chat
-                : (flagId == 2
-                    ? (flagforCategory==0?Icons.phone:Icons.arrow_back)
-                    : Icons.menu),
-            color: Colors.white//Get.theme.iconTheme.color,
-          ),
+        child: Icon(
+          flagId == 1
+              ? Icons.chat
+              : (flagId == 2
+                  ? (flagforCategory==0?Icons.phone:Icons.arrow_back)
+                  : Icons.menu),
+          color: Colors.white//Get.theme.iconTheme.color,
         ),
       ),
       title: Text(

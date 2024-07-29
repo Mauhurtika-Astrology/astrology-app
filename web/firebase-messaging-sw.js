@@ -6,13 +6,13 @@ importScripts(
 );
 
 firebase.initializeApp({
-  apiKey: "AIzaSyAyiZi-oi6QilI2X-7hNcCgtbmRT2WLAhs",
-  authDomain: "astroway-diploy.firebaseapp.com",
-  databaseURL: "https://astroway-diploy-default-rtdb.firebaseio.com",
-  projectId: "astroway-diploy",
-  storageBucket: "astroway-diploy.appspot.com",
-  messagingSenderId: "381086206621",
-  appId: "1:381086206621:web:f09b5db876e2323d32e274",
+  apiKey: "AIzaSyA_PPxVS1Xj5QuxkGybsFTG7ZUuiU0usu8",
+  authDomain: "mauhurtika-pre.firebaseapp.com",
+  databaseURL: "https://mauhurtika-pre-default-rtdb.firebaseio.com",
+  projectId: "mauhurtika-pre",
+  storageBucket: "mauhurtika-pre.appspot.com",
+  messagingSenderId: "948854405434",
+  appId: "1:948854405434:web:3500a6c2233d018d513803",
   measurementId: "G-XY1LD81J6X",
 });
 // Necessary to receive background messages:

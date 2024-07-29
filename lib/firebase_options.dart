@@ -19,7 +19,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: "AIzaSyA_PPxVS1Xj5QuxkGybsFTG7ZUuiU0usu8",
-    authDomain: "astroway-diploy.firebaseapp.com",
+    authDomain: "https://mauhurtika-pre-default-rtdb.firebaseio.com",
     projectId: "mauhurtika-pre",
     storageBucket: "mauhurtika-pre.appspot.com",
     messagingSenderId: "381086206621", //381086206621

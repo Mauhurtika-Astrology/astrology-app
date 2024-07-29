@@ -37,12 +37,15 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   void initState() {
-
-   // otplessFlutterPlugin.setWebviewInspectable(true);
+    // WidgetsBinding.instance.addPostFrameCallback((_) {
+    //   global.warningDialog(context);
+    // });
+    //otplessFlutterPlugin.setWebviewInspectable(true);
      super.initState();
   }
   @override
   Widget build(BuildContext context) {
+    // warningDialog(context);
     return WillPopScope(
       onWillPop: () async {
         // Get.back();
@@ -134,7 +137,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  Text('Login to Mauhurtika',
+                                  Text('Login to Astroway',
                                           style: Get.textTheme.titleMedium!
                                               .copyWith(
                                                   color: Colors.black,
@@ -151,61 +154,6 @@ class _LoginScreenState extends State<LoginScreen> {
                                 return Column(
                                   mainAxisSize: MainAxisSize.min,
                                   children: [
-                                    // Container(
-                                    //   height: 55,
-                                    //   decoration: BoxDecoration(
-                                    //       color: Colors.white,
-                                    //       borderRadius: const BorderRadius.all(
-                                    //           Radius.circular(10)),
-                                    //       border:
-                                    //           Border.all(color: Colors.grey)),
-                                    //   child: Padding(
-                                    //     padding: const EdgeInsets.all(8.0),
-                                    //     child: SizedBox(
-                                    //         child: IntlPhoneField(
-                                    //       pickerDialogStyle: PickerDialogStyle(
-                                    //           backgroundColor: Colors.white),
-                                    //       autovalidateMode: null,
-                                    //       showDropdownIcon: false,
-                                    //       controller:
-                                    //           loginController.phoneController,
-                                    //       decoration: InputDecoration(
-                                    //           //labelText: 'Phone Number',
-                                    //           contentPadding:
-                                    //               const EdgeInsets.symmetric(
-                                    //                   vertical: 5,
-                                    //                   horizontal: 10),
-                                    //           hintText: 'Phone Number',
-                                    //           border: const OutlineInputBorder(
-                                    //             borderSide: BorderSide.none,
-                                    //           ),
-                                    //           enabledBorder:
-                                    //               const OutlineInputBorder(
-                                    //             borderSide: BorderSide.none,
-                                    //           ),
-                                    //           disabledBorder:
-                                    //               const OutlineInputBorder(
-                                    //             borderSide: BorderSide.none,
-                                    //           ),
-                                    //           focusedBorder:
-                                    //               const OutlineInputBorder(
-                                    //             borderSide: BorderSide.none,
-                                    //           ),
-                                    //           errorBorder:
-                                    //               const OutlineInputBorder(
-                                    //             borderSide: BorderSide.none,
-                                    //           ),
-                                    //           errorText: null,
-                                    //           counterText: ''),
-                                    //       initialCountryCode: 'IN',
-                                    //       onChanged: (phone) {
-                                    //         //print(phone.completeNumber);
-                                    //         loginController.updateCountryCode(
-                                    //             phone.countryCode);
-                                    //       },
-                                    //     )),
-                                    //   ),
-                                    // ),
                                     Container(
                                     decoration:  BoxDecoration(
                                       color: Colors.white,
@@ -450,49 +398,6 @@ class _LoginScreenState extends State<LoginScreen> {
                                   ],
                                 );
                               }),
-                              // InkWell(
-                              //   splashColor: Colors.transparent,
-                              //   highlightColor: Colors.transparent,
-                              //   onTap: () {
-                              //     loginController.truecaller(context);
-                              //   },
-                              //   child: Container(
-                              //     padding: EdgeInsets.symmetric(
-                              //         horizontal: Get.width * 0.02,
-                              //         vertical: Get.height * 0.005),
-                              //     decoration: BoxDecoration(
-                              //         color: Colors.blue,
-                              //         borderRadius:
-                              //             BorderRadius.circular(Get.width * 0.10)),
-                              //     child: Row(
-                              //       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              //       children: [
-                              //         CircleAvatar(
-                              //             radius: Get.width * 0.05,
-                              //             backgroundColor: Colors.white,
-                              //             child: Icon(
-                              //               Icons.call,
-                              //               color: Colors.blue,
-                              //               size: Get.width * 0.07,
-                              //             )),
-                              //         Expanded(
-                              //           child: Row(
-                              //             mainAxisAlignment: MainAxisAlignment.center,
-                              //             children: [
-                              //               Text(
-                              //                 'Login via Truecaller',
-                              //                 style: TextStyle(
-                              //                     fontSize: Get.width * 0.040,
-                              //                     fontWeight: FontWeight.w600,
-                              //                     color: Colors.white),
-                              //               ).tr(),
-                              //             ],
-                              //           ),
-                              //         )
-                              //       ],
-                              //     ),
-                              //   ),
-                              // ),
                               SizedBox(
                                 height: Get.height * 0.03,
                               ),
@@ -679,7 +584,9 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
     );
   }
+
 }
+
 
 class CustomClipPath extends CustomClipper<Path> {
   var radius = 5.0;
