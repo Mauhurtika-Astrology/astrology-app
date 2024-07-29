@@ -1,4 +1,4 @@
-# Astroway User App
+# Mauhurtika User App
 
 A new Flutter project.
 

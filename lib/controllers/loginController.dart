@@ -12,7 +12,6 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:otpless_flutter/otpless_flutter.dart';
-
 import '../model/device_info_login_model.dart';
 import '../utils/global.dart';
 import '../views/bottomNavigationBarScreen.dart';
