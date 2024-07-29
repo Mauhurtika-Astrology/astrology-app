@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/reviewController.dart';
-import 'package:AstrowayCustomer/controllers/splashController.dart';
+import 'package:MauhurtikaAstrology/controllers/reviewController.dart';
+import 'package:MauhurtikaAstrology/controllers/splashController.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

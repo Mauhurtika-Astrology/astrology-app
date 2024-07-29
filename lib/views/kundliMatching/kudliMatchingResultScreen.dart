@@ -2,21 +2,21 @@
 
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/kundliMatchingController.dart';
-import 'package:AstrowayCustomer/controllers/liveController.dart';
-import 'package:AstrowayCustomer/utils/images.dart';
-import 'package:AstrowayCustomer/views/bottomNavigationBarScreen.dart';
-import 'package:AstrowayCustomer/views/liveAstrologerList.dart';
-import 'package:AstrowayCustomer/views/live_astrologer/live_astrologer_screen.dart';
-import 'package:AstrowayCustomer/widget/contactAstrologerBottomButton.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/kundliMatchingController.dart';
+import 'package:MauhurtikaAstrology/controllers/liveController.dart';
+import 'package:MauhurtikaAstrology/utils/images.dart';
+import 'package:MauhurtikaAstrology/views/bottomNavigationBarScreen.dart';
+import 'package:MauhurtikaAstrology/views/liveAstrologerList.dart';
+import 'package:MauhurtikaAstrology/views/live_astrologer/live_astrologer_screen.dart';
+import 'package:MauhurtikaAstrology/widget/contactAstrologerBottomButton.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:syncfusion_flutter_gauges/gauges.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
 import '../../model/NorthKundaliMatchingModel.dart';
@@ -478,8 +478,8 @@ class KudliMatchingResultScreen extends StatelessWidget {
                                               // // ignore: unused_local_variable
                                               // String applink;
                                               // final DynamicLinkParameters parameters = DynamicLinkParameters(
-                                              //   uriPrefix: 'https://astrowaydiploy.page.link',
-                                              //   link: Uri.parse("https://astrowaydiploy.page.link/userProfile?screen=astroProfile"),
+                                              //   uriPrefix: 'https://mauhurtika.page.link',
+                                              //   link: Uri.parse("https://mauhurtika.page.link/userProfile?screen=astroProfile"),
                                               //   androidParameters: AndroidParameters(
                                               //     packageName: 'com.mauhurtika.astrologyapp',
                                               //     minimumVersion: 1,
@@ -2879,8 +2879,8 @@ class KudliMatchingResultScreen extends StatelessWidget {
                                               // // ignore: unused_local_variable
                                               // String applink;
                                               // final DynamicLinkParameters parameters = DynamicLinkParameters(
-                                              //   uriPrefix: 'https://astrowaydiploy.page.link',
-                                              //   link: Uri.parse("https://astrowaydiploy.page.link/userProfile?screen=astroProfile"),
+                                              //   uriPrefix: 'https://mauhurtika.page.link',
+                                              //   link: Uri.parse("https://mauhurtika.page.link/userProfile?screen=astroProfile"),
                                               //   androidParameters: AndroidParameters(
                                               //     packageName: 'com.mauhurtika.astrologyapp',
                                               //     minimumVersion: 1,

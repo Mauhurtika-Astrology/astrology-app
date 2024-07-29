@@ -43,13 +43,13 @@ class _PlayerState extends State<Player> {
                   onShowMenu: (showMenu, m3u8Show) {
                     print(showMenu);
                     print("audio link");
-                    print('https://s3-ap-south-1.amazonaws.com/astroway/${widget.sid}_${historyController.callHistoryListById[0].channelName}.m3u8');
+                    print('https://s3-ap-south-1.amazonaws.com/mauhurtika/${widget.sid}_${historyController.callHistoryListById[0].channelName}.m3u8');
 
                   },
                   autoPlayVideoAfterInit: true,
                   aspectRatio: 16 / 9,
                   url:
-                  "https://s3-ap-south-1.amazonaws.com/astroway/${widget.sid}_${historyController.callHistoryListById[0].channelName}.m3u8",
+                  "https://s3-ap-south-1.amazonaws.com/mauhurtika/${widget.sid}_${historyController.callHistoryListById[0].channelName}.m3u8",
                   videoStyle: VideoStyle(
                       fullScreenIconSize: 1,
                       fullScreenIconColor: Colors.black,

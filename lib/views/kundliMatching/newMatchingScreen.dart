@@ -1,7 +1,7 @@
 // ignore_for_file: avoid_print, use_build_context_synchronously
 
 
-import 'package:AstrowayCustomer/views/placeOfBrithSearchScreen.dart';
+import 'package:MauhurtikaAstrology/views/placeOfBrithSearchScreen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

@@ -1,9 +1,9 @@
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/model/blocked_astrologe_model.dart';
-import 'package:AstrowayCustomer/model/notifications_model.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/model/blocked_astrologe_model.dart';
+import 'package:MauhurtikaAstrology/model/notifications_model.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class SettingsController extends GetxController {
   APIHelper apiHelper = APIHelper();

@@ -1,10 +1,10 @@
-import 'package:AstrowayCustomer/utils/images.dart';
-import 'package:AstrowayCustomer/views/customer_support/createTicketScreen.dart';
+import 'package:MauhurtikaAstrology/utils/images.dart';
+import 'package:MauhurtikaAstrology/views/customer_support/createTicketScreen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class HelpDetailTileWidget extends StatelessWidget {
   final String text;

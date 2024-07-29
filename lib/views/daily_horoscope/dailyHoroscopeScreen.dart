@@ -2,14 +2,14 @@
 
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/dailyHoroscopeController.dart';
-import 'package:AstrowayCustomer/controllers/liveController.dart';
-import 'package:AstrowayCustomer/controllers/reviewController.dart';
-import 'package:AstrowayCustomer/controllers/splashController.dart';
-import 'package:AstrowayCustomer/utils/images.dart';
-import 'package:AstrowayCustomer/views/liveAstrologerList.dart';
-import 'package:AstrowayCustomer/views/live_astrologer/live_astrologer_screen.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/dailyHoroscopeController.dart';
+import 'package:MauhurtikaAstrology/controllers/liveController.dart';
+import 'package:MauhurtikaAstrology/controllers/reviewController.dart';
+import 'package:MauhurtikaAstrology/controllers/splashController.dart';
+import 'package:MauhurtikaAstrology/utils/images.dart';
+import 'package:MauhurtikaAstrology/views/liveAstrologerList.dart';
+import 'package:MauhurtikaAstrology/views/live_astrologer/live_astrologer_screen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:custom_clippers/custom_clippers.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -17,7 +17,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
@@ -7566,7 +7566,7 @@ class _DailyHoroscopeScreenState extends State<DailyHoroscopeScreen> {
                           )
                               : const SizedBox(),
 
-                          ///live astro
+                          ///live astrology
                           GetBuilder<BottomNavigationController>(
                               builder:
                                   (bottomNavigationController) {

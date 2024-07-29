@@ -1,8 +1,8 @@
-import 'package:AstrowayCustomer/model/reviewModel.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/model/reviewModel.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:url_launcher/url_launcher.dart';
 
 class ReviewController extends GetxController {

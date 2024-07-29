@@ -1,12 +1,12 @@
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/dropDownController.dart';
-import 'package:AstrowayCustomer/model/astrologer_model.dart';
-import 'package:AstrowayCustomer/model/reportModel.dart';
-import 'package:AstrowayCustomer/model/reportTypeModel.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/dropDownController.dart';
+import 'package:MauhurtikaAstrology/model/astrologer_model.dart';
+import 'package:MauhurtikaAstrology/model/reportModel.dart';
+import 'package:MauhurtikaAstrology/model/reportTypeModel.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class ReportController extends GetxController {
   BottomNavigationController bottomNavigationController = Get.find<BottomNavigationController>();

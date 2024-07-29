@@ -1,6 +1,6 @@
-import 'package:AstrowayCustomer/views/kudali/doshaReport.dart';
-import 'package:AstrowayCustomer/views/kudali/generalReportScreen.dart';
-import 'package:AstrowayCustomer/views/kudali/remediesKundli.dart';
+import 'package:MauhurtikaAstrology/views/kudali/doshaReport.dart';
+import 'package:MauhurtikaAstrology/views/kudali/generalReportScreen.dart';
+import 'package:MauhurtikaAstrology/views/kudali/remediesKundli.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -2,23 +2,23 @@
 
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/razorPayController.dart';
-import 'package:AstrowayCustomer/utils/date_converter.dart';
-import 'package:AstrowayCustomer/utils/images.dart';
-import 'package:AstrowayCustomer/views/customer_support/customerSupportChatScreen.dart';
-import 'package:AstrowayCustomer/views/placeOfBrithSearchScreen.dart';
-import 'package:AstrowayCustomer/widget/customBottomButton.dart';
-import 'package:AstrowayCustomer/widget/drodownWidget.dart';
-import 'package:AstrowayCustomer/widget/textFieldLabelWidget.dart';
-import 'package:AstrowayCustomer/widget/textFieldWidget.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/razorPayController.dart';
+import 'package:MauhurtikaAstrology/utils/date_converter.dart';
+import 'package:MauhurtikaAstrology/utils/images.dart';
+import 'package:MauhurtikaAstrology/views/customer_support/customerSupportChatScreen.dart';
+import 'package:MauhurtikaAstrology/views/placeOfBrithSearchScreen.dart';
+import 'package:MauhurtikaAstrology/widget/customBottomButton.dart';
+import 'package:MauhurtikaAstrology/widget/drodownWidget.dart';
+import 'package:MauhurtikaAstrology/widget/textFieldLabelWidget.dart';
+import 'package:MauhurtikaAstrology/widget/textFieldWidget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_holo_date_picker/date_picker.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';

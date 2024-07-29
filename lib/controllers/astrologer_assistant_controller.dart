@@ -1,8 +1,8 @@
-import 'package:AstrowayCustomer/model/assistant_model.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/model/assistant_model.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import '../model/chat_message_model.dart';
 

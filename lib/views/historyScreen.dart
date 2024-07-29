@@ -1,26 +1,26 @@
 // ignore_for_file: must_be_immutable, deprecated_member_use
 
 
-import 'package:AstrowayCustomer/controllers/IntakeController.dart';
-import 'package:AstrowayCustomer/controllers/astromallController.dart';
-import 'package:AstrowayCustomer/controllers/callController.dart';
-import 'package:AstrowayCustomer/controllers/chatController.dart';
-import 'package:AstrowayCustomer/controllers/history_controller.dart';
-import 'package:AstrowayCustomer/controllers/reviewController.dart';
-import 'package:AstrowayCustomer/controllers/splashController.dart';
-import 'package:AstrowayCustomer/utils/images.dart';
-import 'package:AstrowayCustomer/views/addMoneyToWallet.dart';
-import 'package:AstrowayCustomer/views/call/call_history_detail_screen.dart';
-import 'package:AstrowayCustomer/views/chat/chat_screen.dart';
-import 'package:AstrowayCustomer/views/view_report.dart';
-import 'package:AstrowayCustomer/widget/customAppbarWidget.dart';
-import 'package:AstrowayCustomer/widget/drawerWidget.dart';
-import 'package:AstrowayCustomer/widget/recommendedAstrologerWidget.dart';
+import 'package:MauhurtikaAstrology/controllers/IntakeController.dart';
+import 'package:MauhurtikaAstrology/controllers/astromallController.dart';
+import 'package:MauhurtikaAstrology/controllers/callController.dart';
+import 'package:MauhurtikaAstrology/controllers/chatController.dart';
+import 'package:MauhurtikaAstrology/controllers/history_controller.dart';
+import 'package:MauhurtikaAstrology/controllers/reviewController.dart';
+import 'package:MauhurtikaAstrology/controllers/splashController.dart';
+import 'package:MauhurtikaAstrology/utils/images.dart';
+import 'package:MauhurtikaAstrology/views/addMoneyToWallet.dart';
+import 'package:MauhurtikaAstrology/views/call/call_history_detail_screen.dart';
+import 'package:MauhurtikaAstrology/views/chat/chat_screen.dart';
+import 'package:MauhurtikaAstrology/views/view_report.dart';
+import 'package:MauhurtikaAstrology/widget/customAppbarWidget.dart';
+import 'package:MauhurtikaAstrology/widget/drawerWidget.dart';
+import 'package:MauhurtikaAstrology/widget/recommendedAstrologerWidget.dart';
 import 'package:bubble_tab_indicator/bubble_tab_indicator.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:url_launcher/url_launcher.dart';

@@ -1,13 +1,13 @@
-import 'package:AstrowayCustomer/controllers/customer_support_controller.dart';
-import 'package:AstrowayCustomer/utils/date_converter.dart';
-import 'package:AstrowayCustomer/views/customer_support/customer_support_chat_screen.dart';
-import 'package:AstrowayCustomer/views/customer_support/helpAndSupportScreen.dart';
-import 'package:AstrowayCustomer/widget/customBottomButton.dart';
+import 'package:MauhurtikaAstrology/controllers/customer_support_controller.dart';
+import 'package:MauhurtikaAstrology/utils/date_converter.dart';
+import 'package:MauhurtikaAstrology/views/customer_support/customer_support_chat_screen.dart';
+import 'package:MauhurtikaAstrology/views/customer_support/helpAndSupportScreen.dart';
+import 'package:MauhurtikaAstrology/widget/customBottomButton.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class ChatWithCustomerSupport extends StatelessWidget {
   const ChatWithCustomerSupport({Key? key}) : super(key: key);

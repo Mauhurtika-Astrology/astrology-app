@@ -1,9 +1,9 @@
 import 'dart:developer';
 
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/model/astrologer_model.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/model/astrologer_model.dart';
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';

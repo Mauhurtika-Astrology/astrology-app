@@ -11,9 +11,9 @@
 	<key>BUNDLE_ID</key>
 	<string>com.mauhurtika.astrologyapp</string>
 	<key>PROJECT_ID</key>
-	<string>astroway-diploy</string>
+	<string>mauhurtika</string>
 	<key>STORAGE_BUCKET</key>
-	<string>astroway-diploy.appspot.com</string>
+	<string>mauhurtika-pre.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -27,6 +27,6 @@
 	<key>GOOGLE_APP_ID</key>
 	<string>1:381086206621:ios:50ef1a4a2bd8342b32e274</string>
 	<key>DATABASE_URL</key>
-	<string>https://astroway-diploy-default-rtdb.firebaseio.com</string>
+	<string>https://mauhurtika-pre-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>

@@ -1,4 +1,4 @@
-import 'package:AstrowayCustomer/model/availableTimes_model.dart';
+import 'package:MauhurtikaAstrology/model/availableTimes_model.dart';
 
 import 'availability_model.dart';
 

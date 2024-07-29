@@ -1,4 +1,4 @@
-import 'package:AstrowayCustomer/model/systemFlagModel.dart';
+import 'package:MauhurtikaAstrology/model/systemFlagModel.dart';
 
 class CurrentUserModel {
   CurrentUserModel({

@@ -2,11 +2,11 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
-import 'package:AstrowayCustomer/controllers/homeController.dart';
-import 'package:AstrowayCustomer/controllers/splashController.dart';
-import 'package:AstrowayCustomer/main.dart';
-import 'package:AstrowayCustomer/model/login_model.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/controllers/homeController.dart';
+import 'package:MauhurtikaAstrology/controllers/splashController.dart';
+import 'package:MauhurtikaAstrology/main.dart';
+import 'package:MauhurtikaAstrology/model/login_model.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 // import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +16,7 @@ import '../model/device_info_login_model.dart';
 import '../utils/global.dart';
 import '../views/bottomNavigationBarScreen.dart';
 import '../views/verifyPhoneScreen.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:http/http.dart' as http;
 
 class LoginController extends GetxController {

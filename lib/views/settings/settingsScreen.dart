@@ -1,15 +1,15 @@
-import 'package:AstrowayCustomer/controllers/history_controller.dart';
-import 'package:AstrowayCustomer/controllers/settings_controller.dart';
-import 'package:AstrowayCustomer/views/astrologerProfile/block_astrologer_screen.dart';
-import 'package:AstrowayCustomer/views/settings/privacyPolicyScreen.dart';
-import 'package:AstrowayCustomer/views/settings/termsAndConditionScreen.dart';
+import 'package:MauhurtikaAstrology/controllers/history_controller.dart';
+import 'package:MauhurtikaAstrology/controllers/settings_controller.dart';
+import 'package:MauhurtikaAstrology/views/astrologerProfile/block_astrologer_screen.dart';
+import 'package:MauhurtikaAstrology/views/settings/privacyPolicyScreen.dart';
+import 'package:MauhurtikaAstrology/views/settings/termsAndConditionScreen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 
 import '../../widget/commonAppbar.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class SettingListScreen extends StatelessWidget {
   const SettingListScreen({Key? key}) : super(key: key);

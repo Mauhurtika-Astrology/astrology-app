@@ -3,19 +3,19 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/callController.dart';
-import 'package:AstrowayCustomer/controllers/IntakeController.dart';
-import 'package:AstrowayCustomer/controllers/chatController.dart';
-import 'package:AstrowayCustomer/controllers/razorPayController.dart';
-import 'package:AstrowayCustomer/controllers/splashController.dart';
-import 'package:AstrowayCustomer/utils/images.dart';
-import 'package:AstrowayCustomer/views/CustomText.dart';
-import 'package:AstrowayCustomer/views/paymentInformationScreen.dart';
-import 'package:AstrowayCustomer/views/placeOfBrithSearchScreen.dart';
-import 'package:AstrowayCustomer/widget/customBottomButton.dart';
-import 'package:AstrowayCustomer/widget/textFieldLabelWidget.dart';
-import 'package:AstrowayCustomer/widget/textFieldWidget.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/callController.dart';
+import 'package:MauhurtikaAstrology/controllers/IntakeController.dart';
+import 'package:MauhurtikaAstrology/controllers/chatController.dart';
+import 'package:MauhurtikaAstrology/controllers/razorPayController.dart';
+import 'package:MauhurtikaAstrology/controllers/splashController.dart';
+import 'package:MauhurtikaAstrology/utils/images.dart';
+import 'package:MauhurtikaAstrology/views/CustomText.dart';
+import 'package:MauhurtikaAstrology/views/paymentInformationScreen.dart';
+import 'package:MauhurtikaAstrology/views/placeOfBrithSearchScreen.dart';
+import 'package:MauhurtikaAstrology/widget/customBottomButton.dart';
+import 'package:MauhurtikaAstrology/widget/textFieldLabelWidget.dart';
+import 'package:MauhurtikaAstrology/widget/textFieldWidget.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
@@ -23,7 +23,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_holo_date_picker/date_picker.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
@@ -1318,7 +1318,7 @@ class _CallIntakeFormScreenState extends State<CallIntakeFormScreen> {
     //                             // height: 4.h,
     //                             padding: EdgeInsets.symmetric(horizontal: 2.w),
     //                             child: Text(
-    //                               'Astroway will try to answer at least one question in this 5 mins session',
+    //                               'Mauhurtika will try to answer at least one question in this 5 mins session',
     //                               style: TextStyle(
     //                                   fontSize: 15.sp,
     //                                   fontWeight: FontWeight.normal,

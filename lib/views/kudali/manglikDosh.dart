@@ -1,4 +1,4 @@
-import 'package:AstrowayCustomer/widget/containerListTIleWidgte.dart';
+import 'package:MauhurtikaAstrology/widget/containerListTIleWidgte.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

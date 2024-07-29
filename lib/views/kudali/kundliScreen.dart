@@ -1,15 +1,15 @@
 import 'dart:math';
 
-import 'package:AstrowayCustomer/controllers/kundliController.dart';
-import 'package:AstrowayCustomer/views/kudali/createNewKundli.dart';
-import 'package:AstrowayCustomer/views/kudali/editKundliScreen.dart';
-import 'package:AstrowayCustomer/views/kudali/kundliDetailsScreen.dart';
+import 'package:MauhurtikaAstrology/controllers/kundliController.dart';
+import 'package:MauhurtikaAstrology/views/kudali/createNewKundli.dart';
+import 'package:MauhurtikaAstrology/views/kudali/editKundliScreen.dart';
+import 'package:MauhurtikaAstrology/views/kudali/kundliDetailsScreen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 
 // ignore: must_be_immutable

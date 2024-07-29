@@ -1,6 +1,6 @@
-import 'package:AstrowayCustomer/views/kudali/kalsarpaDosha.dart';
-import 'package:AstrowayCustomer/views/kudali/manglikDosh.dart';
-import 'package:AstrowayCustomer/views/kudali/sadesatiDosha.dart';
+import 'package:MauhurtikaAstrology/views/kudali/kalsarpaDosha.dart';
+import 'package:MauhurtikaAstrology/views/kudali/manglikDosh.dart';
+import 'package:MauhurtikaAstrology/views/kudali/sadesatiDosha.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

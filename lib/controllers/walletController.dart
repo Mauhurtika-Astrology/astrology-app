@@ -1,6 +1,6 @@
-import 'package:AstrowayCustomer/model/amount_model.dart';
+import 'package:MauhurtikaAstrology/model/amount_model.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import '../utils/services/api_helper.dart';
 

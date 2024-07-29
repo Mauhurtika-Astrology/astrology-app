@@ -1,9 +1,9 @@
-import 'package:AstrowayCustomer/controllers/astromallController.dart';
-import 'package:AstrowayCustomer/model/advancedPanchangModel.dart';
-import 'package:AstrowayCustomer/model/vedicApis/vedicPanchangModel.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/controllers/astromallController.dart';
+import 'package:MauhurtikaAstrology/model/advancedPanchangModel.dart';
+import 'package:MauhurtikaAstrology/model/vedicApis/vedicPanchangModel.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:intl/intl.dart';
 
 class PanchangController extends GetxController {

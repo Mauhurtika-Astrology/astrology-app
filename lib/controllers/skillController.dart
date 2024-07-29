@@ -1,11 +1,11 @@
 import 'dart:developer';
 
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/model/skillModel.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/model/skillModel.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class SkillController extends GetxController {
   APIHelper apiHelper = APIHelper();

@@ -1,12 +1,12 @@
 import 'dart:math';
 
-import 'package:AstrowayCustomer/controllers/kundliController.dart';
-import 'package:AstrowayCustomer/controllers/kundliMatchingController.dart';
+import 'package:MauhurtikaAstrology/controllers/kundliController.dart';
+import 'package:MauhurtikaAstrology/controllers/kundliMatchingController.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class OpenKundliScreen extends StatelessWidget {
   OpenKundliScreen({Key? key}) : super(key: key);

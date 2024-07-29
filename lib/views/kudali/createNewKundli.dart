@@ -1,6 +1,6 @@
-import 'package:AstrowayCustomer/controllers/kundliController.dart';
-import 'package:AstrowayCustomer/widget/createKundliTitleWidget.dart';
-import 'package:AstrowayCustomer/widget/kundliBrithdateWidget.dart';
+import 'package:MauhurtikaAstrology/controllers/kundliController.dart';
+import 'package:MauhurtikaAstrology/widget/createKundliTitleWidget.dart';
+import 'package:MauhurtikaAstrology/widget/kundliBrithdateWidget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

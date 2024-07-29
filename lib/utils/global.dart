@@ -5,11 +5,11 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/splashController.dart';
-import 'package:AstrowayCustomer/model/current_user_model.dart';
-import 'package:AstrowayCustomer/model/hororscopeSignModel.dart';
-import 'package:AstrowayCustomer/model/systemFlagNameListModel.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/controllers/splashController.dart';
+import 'package:MauhurtikaAstrology/model/current_user_model.dart';
+import 'package:MauhurtikaAstrology/model/hororscopeSignModel.dart';
+import 'package:MauhurtikaAstrology/model/systemFlagNameListModel.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
@@ -25,7 +25,7 @@ import 'package:flutter_share/flutter_share.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:url_launcher/url_launcher.dart';
 
 import '../controllers/loginController.dart';
@@ -812,7 +812,7 @@ Future<Map<String, String>> getApiHeaders(bool authorizationRequired) async {
 //                   child: RichText(
 //                     text: TextSpan(
 //                       text:
-//                       'Beware of scammer & nulled codes. Some websites are using our name & assets to mislead like astroway.in & more (Buy the astroway source code from codecanyon & ',
+//                       'Beware of scammer. Some websites are using our name & assets to mislead like mauhurtika.com  ',
 //                       style: const TextStyle(color: Colors.black),
 //                       children: <TextSpan>[
 //                         TextSpan(

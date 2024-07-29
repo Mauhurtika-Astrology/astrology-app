@@ -2,14 +2,14 @@
 
 import 'dart:convert';
 
-import 'package:AstrowayCustomer/controllers/search_controller.dart';
-import 'package:AstrowayCustomer/controllers/splashController.dart';
+import 'package:MauhurtikaAstrology/controllers/search_controller.dart';
+import 'package:MauhurtikaAstrology/controllers/splashController.dart';
 
-import 'package:AstrowayCustomer/controllers/userProfileController.dart';
-import 'package:AstrowayCustomer/views/placeOfBrithSearchScreen.dart';
-import 'package:AstrowayCustomer/widget/customBottomButton.dart';
-import 'package:AstrowayCustomer/widget/textFieldLabelWidget.dart';
-import 'package:AstrowayCustomer/widget/textFieldWidget.dart';
+import 'package:MauhurtikaAstrology/controllers/userProfileController.dart';
+import 'package:MauhurtikaAstrology/views/placeOfBrithSearchScreen.dart';
+import 'package:MauhurtikaAstrology/widget/customBottomButton.dart';
+import 'package:MauhurtikaAstrology/widget/textFieldLabelWidget.dart';
+import 'package:MauhurtikaAstrology/widget/textFieldWidget.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:date_format/date_format.dart';
 import 'package:easy_localization/easy_localization.dart';
@@ -23,7 +23,7 @@ import 'package:image_picker/image_picker.dart';
 
 import '../../utils/images.dart';
 import '../../widget/commonAppbar.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 // ignore: must_be_immutable
 class EditUserProfile extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:AstrowayCustomer/views/kudali/gemstonesDetail.dart';
+import 'package:MauhurtikaAstrology/views/kudali/gemstonesDetail.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
