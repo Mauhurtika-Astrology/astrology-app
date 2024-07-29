@@ -158,7 +158,8 @@ class LoginController extends GetxController {
   String phoneOrEmail = '';
   String otp = '';
   bool isInitIos = false;
-  static const String appId = "EGN337D0735VTPMTqwer";
+  //Otpless App ID
+  static const String appId = "GNA12Z051UN9SZJ5HSI5";
 
   @override
   void dispose() {
