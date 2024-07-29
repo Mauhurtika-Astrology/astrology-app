@@ -58,14 +58,14 @@ final DateFormat formatter = DateFormat("dd MMM yy, hh:mm a");
 
 String stripeBaseApi = 'https://api.stripe.com/v1';
 
-String baseUrl = "https://astroway.diploy.in/api";
-String imgBaseurl = "https://astroway.diploy.in/";
-String webBaseUrl = "https://astroway.diploy.in/api/";
+String baseUrl = "https://mauhurtika.com/api";
+String imgBaseurl = "https://mauhurtika.com/";
+String webBaseUrl = "https://mauhurtika.com/api/";
 String appMode = "LIVE";
 Map<String, dynamic> appParameters = {
   "LIVE": {
-    "apiUrl": "https://astroway.diploy.in/api",
-    "imageBaseurl": "https://astroway.diploy.in/",
+    "apiUrl": "https://mauhurtika.com/api",
+    "imageBaseurl": "https://mauhurtika.com/",
   },
   "DEV": {
     "apiUrl": "http://192.168.29.223:8001/api",
@@ -74,11 +74,11 @@ Map<String, dynamic> appParameters = {
 };
 String agoraChannelName = ""; //valid 24hr
 String agoraToken = "";
-String channelName = "astrowayLive";
+String channelName = "mauhurtikaLive";
 String agoraLiveToken = "";
-String liveChannelName = "astrowayLive";
-String agoraChatUserId = "astrowayLive";
-String chatChannelName = "astrowayLive";
+String liveChannelName = "mauhurtikaLive";
+String agoraChatUserId = "mauhurtikaLive";
+String chatChannelName = "mauhurtikaLive";
 String agoraChatToken = "";
 String encodedString = "&&";
 Color coursorColor = Color(0xFF757575);
@@ -149,7 +149,7 @@ Future<void> callOnFcmApiSendPushNotifications({
       }
     };
     final url = Uri.parse(
-        'https://fcm.googleapis.com/v1/projects/astroway-diploy/messages:send');
+        'https://fcm.googleapis.com/v1/projects/mauhurtika-pre/messages:send');
     final response = await http.post(
       url,
       headers: headers,
