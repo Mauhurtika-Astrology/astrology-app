@@ -1,4 +1,4 @@
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class MessageModelLive {
   int? id;

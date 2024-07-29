@@ -1,10 +1,10 @@
 // ignore_for_file: must_be_immutable, deprecated_member_use
 
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/chatController.dart';
-import 'package:AstrowayCustomer/controllers/history_controller.dart';
-import 'package:AstrowayCustomer/controllers/homeController.dart';
-import 'package:AstrowayCustomer/controllers/liveController.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/chatController.dart';
+import 'package:MauhurtikaAstrology/controllers/history_controller.dart';
+import 'package:MauhurtikaAstrology/controllers/homeController.dart';
+import 'package:MauhurtikaAstrology/controllers/liveController.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

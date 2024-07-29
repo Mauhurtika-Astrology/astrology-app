@@ -3,17 +3,17 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:AstrowayCustomer/model/NorthKundaliMatchingModel.dart';
-import 'package:AstrowayCustomer/model/kundliMatchingDetailsModel.dart';
-import 'package:AstrowayCustomer/model/kundli_model.dart';
-import 'package:AstrowayCustomer/model/southkundaliMatchingModel.dart';
-import 'package:AstrowayCustomer/utils/global.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/model/NorthKundaliMatchingModel.dart';
+import 'package:MauhurtikaAstrology/model/kundliMatchingDetailsModel.dart';
+import 'package:MauhurtikaAstrology/model/kundli_model.dart';
+import 'package:MauhurtikaAstrology/model/southkundaliMatchingModel.dart';
+import 'package:MauhurtikaAstrology/utils/global.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 import 'package:date_format/date_format.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:http/http.dart' as http;
 
 class KundliMatchingController extends GetxController with GetTickerProviderStateMixin {

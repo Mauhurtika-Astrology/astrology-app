@@ -1,13 +1,13 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:AstrowayCustomer/controllers/counsellorController.dart';
-import 'package:AstrowayCustomer/controllers/walletController.dart';
-import 'package:AstrowayCustomer/views/counsellor/callWithCounsellor.dart';
-import 'package:AstrowayCustomer/views/counsellor/chatWithCounSellor.dart';
+import 'package:MauhurtikaAstrology/controllers/counsellorController.dart';
+import 'package:MauhurtikaAstrology/controllers/walletController.dart';
+import 'package:MauhurtikaAstrology/views/counsellor/callWithCounsellor.dart';
+import 'package:MauhurtikaAstrology/views/counsellor/chatWithCounSellor.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 
 import '../../widget/customAppbarWidget.dart';

@@ -1,17 +1,17 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
 
-import 'package:AstrowayCustomer/controllers/homeController.dart';
-import 'package:AstrowayCustomer/controllers/reviewController.dart';
-import 'package:AstrowayCustomer/model/current_user_model.dart';
-import 'package:AstrowayCustomer/model/systemFlagModel.dart';
-import 'package:AstrowayCustomer/utils/global.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
-import 'package:AstrowayCustomer/views/loginScreen.dart';
+import 'package:MauhurtikaAstrology/controllers/homeController.dart';
+import 'package:MauhurtikaAstrology/controllers/reviewController.dart';
+import 'package:MauhurtikaAstrology/model/current_user_model.dart';
+import 'package:MauhurtikaAstrology/model/systemFlagModel.dart';
+import 'package:MauhurtikaAstrology/utils/global.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/views/loginScreen.dart';
 import 'package:flutter_share/flutter_share.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

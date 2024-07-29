@@ -1,4 +1,4 @@
-import 'package:AstrowayCustomer/controllers/counsellorController.dart';
+import 'package:MauhurtikaAstrology/controllers/counsellorController.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
@@ -11,7 +11,7 @@ import '../../controllers/razorPayController.dart';
 import '../../controllers/reviewController.dart';
 import '../../controllers/walletController.dart';
 import '../../utils/images.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import '../astrologerProfile/astrologerProfile.dart';
 import '../callIntakeFormScreen.dart';

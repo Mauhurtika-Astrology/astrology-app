@@ -1,7 +1,7 @@
-import 'package:AstrowayCustomer/controllers/kundliController.dart';
-import 'package:AstrowayCustomer/model/kundli_model.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
-import 'package:AstrowayCustomer/views/placeOfBrithSearchScreen.dart';
+import 'package:MauhurtikaAstrology/controllers/kundliController.dart';
+import 'package:MauhurtikaAstrology/model/kundli_model.dart';
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/views/placeOfBrithSearchScreen.dart';
 import 'package:date_format/date_format.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';

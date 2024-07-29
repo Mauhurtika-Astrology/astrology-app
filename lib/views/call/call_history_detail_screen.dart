@@ -3,17 +3,17 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/chatController.dart';
-import 'package:AstrowayCustomer/controllers/history_controller.dart';
-import 'package:AstrowayCustomer/controllers/splashController.dart';
-import 'package:AstrowayCustomer/views/call/player.dart';
+import 'package:MauhurtikaAstrology/controllers/chatController.dart';
+import 'package:MauhurtikaAstrology/controllers/history_controller.dart';
+import 'package:MauhurtikaAstrology/controllers/splashController.dart';
+import 'package:MauhurtikaAstrology/views/call/player.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:responsive_sizer/responsive_sizer.dart';
 
 import '../../controllers/bottomNavigationController.dart';
@@ -195,7 +195,7 @@ class _CallHistoryDetailScreenState extends State<CallHistoryDetailScreen> {
                     //                     print('startPlay');
                     //                     await historyController.audioPlayer
                     //                         .play(UrlSource(
-                    //                             "https://s3-ap-south-1.amazonaws.com/astroway/${historyController.callHistoryListById[0].sId1}_${historyController.callHistoryListById[0].channelName}.m3u8"));
+                    //                             "https://s3-ap-south-1.amazonaws.com/mauhurtika/${historyController.callHistoryListById[0].sId1}_${historyController.callHistoryListById[0].channelName}.m3u8"));
                     //                     //     await historyController.audioPlayer.play(UrlSource("https://file-examples.com/storage/fe3269a6ea65d68689ae021/2017/11/file_example_WAV_1MG.wav"));
                     //                     if (historyController
                     //                                 .callHistoryListById[
@@ -209,7 +209,7 @@ class _CallHistoryDetailScreenState extends State<CallHistoryDetailScreen> {
                     //                             "") {
                     //                       await historyController.audioPlayer2
                     //                           .play(UrlSource(
-                    //                               "https://s3-ap-south-1.amazonaws.com/astroway/${historyController.callHistoryListById[0].sId}_${historyController.callHistoryListById[0].channelName}.m3u8"));
+                    //                               "https://s3-ap-south-1.amazonaws.com/mauhurtika/${historyController.callHistoryListById[0].sId}_${historyController.callHistoryListById[0].channelName}.m3u8"));
                     //                     }
                     //                   }
                     //

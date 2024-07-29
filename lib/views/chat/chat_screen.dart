@@ -3,11 +3,11 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/history_controller.dart';
-import 'package:AstrowayCustomer/views/addMoneyToWallet.dart';
-import 'package:AstrowayCustomer/views/chat/endDialog.dart';
-import 'package:AstrowayCustomer/views/chat/pdfviewerpage.dart';
-import 'package:AstrowayCustomer/views/chat/zoomimagewidget.dart';
+import 'package:MauhurtikaAstrology/controllers/history_controller.dart';
+import 'package:MauhurtikaAstrology/views/addMoneyToWallet.dart';
+import 'package:MauhurtikaAstrology/views/chat/endDialog.dart';
+import 'package:MauhurtikaAstrology/views/chat/pdfviewerpage.dart';
+import 'package:MauhurtikaAstrology/views/chat/zoomimagewidget.dart';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -20,7 +20,7 @@ import 'package:flutter_countdown_timer/index.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:shared_preferences/shared_preferences.dart';

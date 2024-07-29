@@ -1,13 +1,13 @@
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/kundliController.dart';
-import 'package:AstrowayCustomer/controllers/liveController.dart';
-import 'package:AstrowayCustomer/model/kundli_model.dart';
-import 'package:AstrowayCustomer/views/liveAstrologerList.dart';
-import 'package:AstrowayCustomer/views/live_astrologer/live_astrologer_screen.dart';
-import 'package:AstrowayCustomer/widget/containerListTIleWidgte.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/kundliController.dart';
+import 'package:MauhurtikaAstrology/controllers/liveController.dart';
+import 'package:MauhurtikaAstrology/model/kundli_model.dart';
+import 'package:MauhurtikaAstrology/views/liveAstrologerList.dart';
+import 'package:MauhurtikaAstrology/views/live_astrologer/live_astrologer_screen.dart';
+import 'package:MauhurtikaAstrology/widget/containerListTIleWidgte.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import 'package:intl/intl.dart';
 

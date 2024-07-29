@@ -2,20 +2,20 @@
 
 import 'dart:developer';
 
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/homeController.dart';
-import 'package:AstrowayCustomer/controllers/loginController.dart';
-import 'package:AstrowayCustomer/controllers/search_controller.dart';
-import 'package:AstrowayCustomer/utils/images.dart';
-import 'package:AstrowayCustomer/views/bottomNavigationBarScreen.dart';
-import 'package:AstrowayCustomer/views/settings/privacyPolicyScreen.dart';
-import 'package:AstrowayCustomer/views/settings/termsAndConditionScreen.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/homeController.dart';
+import 'package:MauhurtikaAstrology/controllers/loginController.dart';
+import 'package:MauhurtikaAstrology/controllers/search_controller.dart';
+import 'package:MauhurtikaAstrology/utils/images.dart';
+import 'package:MauhurtikaAstrology/views/bottomNavigationBarScreen.dart';
+import 'package:MauhurtikaAstrology/views/settings/privacyPolicyScreen.dart';
+import 'package:MauhurtikaAstrology/views/settings/termsAndConditionScreen.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
@@ -137,7 +137,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  Text('Login to Astroway',
+                                  Text('Login to Mauhurtika',
                                           style: Get.textTheme.titleMedium!
                                               .copyWith(
                                                   color: Colors.black,

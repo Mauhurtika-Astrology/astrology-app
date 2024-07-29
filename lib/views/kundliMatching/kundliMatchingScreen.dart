@@ -1,12 +1,12 @@
-import 'package:AstrowayCustomer/controllers/kundliController.dart';
-import 'package:AstrowayCustomer/views/kundliMatching/kudliMatchingResultScreen.dart';
-import 'package:AstrowayCustomer/views/kundliMatching/newMatchingScreen.dart';
-import 'package:AstrowayCustomer/views/kundliMatching/openKundliScreen.dart';
+import 'package:MauhurtikaAstrology/controllers/kundliController.dart';
+import 'package:MauhurtikaAstrology/views/kundliMatching/kudliMatchingResultScreen.dart';
+import 'package:MauhurtikaAstrology/views/kundliMatching/newMatchingScreen.dart';
+import 'package:MauhurtikaAstrology/views/kundliMatching/openKundliScreen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 
 import '../../controllers/kundliMatchingController.dart';

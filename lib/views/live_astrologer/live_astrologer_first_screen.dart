@@ -2,7 +2,7 @@
 
 import 'dart:async';
 
-import 'package:AstrowayCustomer/views/live_astrologer/live_astrologer_screen.dart';
+import 'package:MauhurtikaAstrology/views/live_astrologer/live_astrologer_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

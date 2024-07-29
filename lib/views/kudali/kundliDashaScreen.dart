@@ -1,5 +1,5 @@
-import 'package:AstrowayCustomer/model/kundli_model.dart';
-import 'package:AstrowayCustomer/views/kudali/vismshattariDasha.dart';
+import 'package:MauhurtikaAstrology/model/kundli_model.dart';
+import 'package:MauhurtikaAstrology/views/kudali/vismshattariDasha.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

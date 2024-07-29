@@ -2,9 +2,9 @@
 
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/theme/nativeTheme.dart';
-import 'package:AstrowayCustomer/views/bottomNavigationBarScreen.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/theme/nativeTheme.dart';
+import 'package:MauhurtikaAstrology/views/bottomNavigationBarScreen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

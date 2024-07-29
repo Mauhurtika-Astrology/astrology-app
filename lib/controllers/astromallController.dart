@@ -1,11 +1,11 @@
-import 'package:AstrowayCustomer/model/astromall_category_model.dart';
-import 'package:AstrowayCustomer/model/astromall_product_model.dart';
-import 'package:AstrowayCustomer/model/user_address_model.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/model/astromall_category_model.dart';
+import 'package:MauhurtikaAstrology/model/astromall_product_model.dart';
+import 'package:MauhurtikaAstrology/model/user_address_model.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class AstromallController extends GetxController with GetSingleTickerProviderStateMixin {
   List astroCategory = <AstromallCategoryModel>[];

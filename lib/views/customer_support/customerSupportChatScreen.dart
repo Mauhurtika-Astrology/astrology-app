@@ -1,8 +1,8 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:AstrowayCustomer/views/customer_support/chatWithAstrologerAssistant.dart';
-import 'package:AstrowayCustomer/views/customer_support/chatWithCustomerSupport.dart';
-import 'package:AstrowayCustomer/widget/commonAppbar.dart';
+import 'package:MauhurtikaAstrology/views/customer_support/chatWithAstrologerAssistant.dart';
+import 'package:MauhurtikaAstrology/views/customer_support/chatWithCustomerSupport.dart';
+import 'package:MauhurtikaAstrology/widget/commonAppbar.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

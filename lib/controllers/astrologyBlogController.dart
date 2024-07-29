@@ -1,8 +1,8 @@
-import 'package:AstrowayCustomer/model/home_Model.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/model/home_Model.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class BlogController extends GetxController {
   APIHelper apiHelper = APIHelper();

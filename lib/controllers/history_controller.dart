@@ -1,14 +1,14 @@
-import 'package:AstrowayCustomer/model/astromallHistoryModel.dart';
-import 'package:AstrowayCustomer/model/callHistoryModel.dart';
-import 'package:AstrowayCustomer/model/chatHistoryModel.dart';
-import 'package:AstrowayCustomer/model/paymentsLogsModel.dart';
-import 'package:AstrowayCustomer/model/reportHistoryModel.dart';
-import 'package:AstrowayCustomer/model/walletTransactionHistoryModel.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/model/astromallHistoryModel.dart';
+import 'package:MauhurtikaAstrology/model/callHistoryModel.dart';
+import 'package:MauhurtikaAstrology/model/chatHistoryModel.dart';
+import 'package:MauhurtikaAstrology/model/paymentsLogsModel.dart';
+import 'package:MauhurtikaAstrology/model/reportHistoryModel.dart';
+import 'package:MauhurtikaAstrology/model/walletTransactionHistoryModel.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class HistoryController extends GetxController with GetSingleTickerProviderStateMixin {
   TabController? tabControllerHistory;

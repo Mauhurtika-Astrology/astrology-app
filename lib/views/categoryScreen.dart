@@ -1,16 +1,16 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:AstrowayCustomer/controllers/astrologerCategoryController.dart';
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/chatController.dart';
-import 'package:AstrowayCustomer/utils/fonts.dart';
-import 'package:AstrowayCustomer/views/CustomText.dart';
-import 'package:AstrowayCustomer/views/callScreen.dart';
-import 'package:AstrowayCustomer/widget/commonAppbar.dart';
+import 'package:MauhurtikaAstrology/controllers/astrologerCategoryController.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/chatController.dart';
+import 'package:MauhurtikaAstrology/utils/fonts.dart';
+import 'package:MauhurtikaAstrology/views/CustomText.dart';
+import 'package:MauhurtikaAstrology/views/callScreen.dart';
+import 'package:MauhurtikaAstrology/widget/commonAppbar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class CategoryScreen extends StatelessWidget {
    CategoryScreen({super.key});

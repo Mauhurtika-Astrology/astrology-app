@@ -4,13 +4,13 @@ import 'dart:async';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/follow_astrologer_controller.dart';
-import 'package:AstrowayCustomer/controllers/gift_controller.dart';
-import 'package:AstrowayCustomer/controllers/liveController.dart';
-import 'package:AstrowayCustomer/controllers/walletController.dart';
-import 'package:AstrowayCustomer/model/messsage_model_live.dart';
-import 'package:AstrowayCustomer/utils/images.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/follow_astrologer_controller.dart';
+import 'package:MauhurtikaAstrology/controllers/gift_controller.dart';
+import 'package:MauhurtikaAstrology/controllers/liveController.dart';
+import 'package:MauhurtikaAstrology/controllers/walletController.dart';
+import 'package:MauhurtikaAstrology/model/messsage_model_live.dart';
+import 'package:MauhurtikaAstrology/utils/images.dart';
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
 import 'package:agora_rtm/agora_rtm.dart';
 import 'package:cached_network_image/cached_network_image.dart';
@@ -19,7 +19,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:flutter_countdown_timer/current_remaining_time.dart';
 import 'package:flutter_countdown_timer/flutter_countdown_timer.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -4023,7 +4023,7 @@ class _LiveAstrologerScreenState extends State<LiveAstrologerScreen> {
       // messageList.add(newUserMessage);
       // reverseList = messageList.reversed.toList();
     });
-    //astrowayGuruLive_102 --channelname
+    //mauhurtikaGuruLive_102 --channelname
     chatController.uploadMessageRTM(
         'liveAstrologer_${widget.astrologerId}', newUserMessage);
   }

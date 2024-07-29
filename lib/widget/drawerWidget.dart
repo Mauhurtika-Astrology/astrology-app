@@ -2,27 +2,27 @@
 
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/advancedPanchangController.dart';
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/callController.dart';
-import 'package:AstrowayCustomer/controllers/counsellorController.dart';
-import 'package:AstrowayCustomer/controllers/follow_astrologer_controller.dart';
-import 'package:AstrowayCustomer/controllers/history_controller.dart';
-import 'package:AstrowayCustomer/controllers/homeController.dart';
-import 'package:AstrowayCustomer/controllers/splashController.dart';
-import 'package:AstrowayCustomer/controllers/themeController.dart';
-import 'package:AstrowayCustomer/views/freeServicesScreen.dart';
-import 'package:AstrowayCustomer/views/getReportScreen.dart';
-import 'package:AstrowayCustomer/views/loginScreen.dart';
-import 'package:AstrowayCustomer/views/myFollowingScreen.dart';
-import 'package:AstrowayCustomer/views/profile/editUserProfileScreen.dart';
-import 'package:AstrowayCustomer/views/settings/colorPicker.dart';
-import 'package:AstrowayCustomer/views/settings/settingsScreen.dart';
+import 'package:MauhurtikaAstrology/controllers/advancedPanchangController.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/callController.dart';
+import 'package:MauhurtikaAstrology/controllers/counsellorController.dart';
+import 'package:MauhurtikaAstrology/controllers/follow_astrologer_controller.dart';
+import 'package:MauhurtikaAstrology/controllers/history_controller.dart';
+import 'package:MauhurtikaAstrology/controllers/homeController.dart';
+import 'package:MauhurtikaAstrology/controllers/splashController.dart';
+import 'package:MauhurtikaAstrology/controllers/themeController.dart';
+import 'package:MauhurtikaAstrology/views/freeServicesScreen.dart';
+import 'package:MauhurtikaAstrology/views/getReportScreen.dart';
+import 'package:MauhurtikaAstrology/views/loginScreen.dart';
+import 'package:MauhurtikaAstrology/views/myFollowingScreen.dart';
+import 'package:MauhurtikaAstrology/views/profile/editUserProfileScreen.dart';
+import 'package:MauhurtikaAstrology/views/settings/colorPicker.dart';
+import 'package:MauhurtikaAstrology/views/settings/settingsScreen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import 'package:store_redirect/store_redirect.dart';
 

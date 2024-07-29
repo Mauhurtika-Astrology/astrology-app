@@ -1,11 +1,11 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:AstrowayCustomer/controllers/customer_support_controller.dart';
-import 'package:AstrowayCustomer/views/customer_support/helpOptionScreen.dart';
-import 'package:AstrowayCustomer/widget/commonListTileWidget.dart';
+import 'package:MauhurtikaAstrology/controllers/customer_support_controller.dart';
+import 'package:MauhurtikaAstrology/views/customer_support/helpOptionScreen.dart';
+import 'package:MauhurtikaAstrology/widget/commonListTileWidget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import '../../widget/commonAppbar.dart';
 

@@ -1,12 +1,12 @@
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/counsellorController.dart';
-import 'package:AstrowayCustomer/views/callIntakeFormScreen.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/counsellorController.dart';
+import 'package:MauhurtikaAstrology/views/callIntakeFormScreen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import '../../controllers/razorPayController.dart';
 import '../../controllers/reviewController.dart';

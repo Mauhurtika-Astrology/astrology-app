@@ -1,15 +1,15 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:AstrowayCustomer/controllers/reviewController.dart';
-import 'package:AstrowayCustomer/views/astromall/addressScreen.dart';
-import 'package:AstrowayCustomer/views/imagePreview.dart';
-import 'package:AstrowayCustomer/widget/customBottomButton.dart';
+import 'package:MauhurtikaAstrology/controllers/reviewController.dart';
+import 'package:MauhurtikaAstrology/views/astromall/addressScreen.dart';
+import 'package:MauhurtikaAstrology/views/imagePreview.dart';
+import 'package:MauhurtikaAstrology/widget/customBottomButton.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 
 import '../../controllers/astromallController.dart';

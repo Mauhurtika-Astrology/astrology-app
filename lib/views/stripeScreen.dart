@@ -2,8 +2,8 @@
 
 import 'dart:convert';
 import 'dart:developer';
-import 'package:AstrowayCustomer/model/card_model.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/model/card_model.dart';
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:http/http.dart' as http;
 
 class StripeService {

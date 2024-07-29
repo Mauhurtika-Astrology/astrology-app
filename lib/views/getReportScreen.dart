@@ -2,16 +2,16 @@
 
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/languageController.dart';
-import 'package:AstrowayCustomer/controllers/reportController.dart';
-import 'package:AstrowayCustomer/controllers/reportTabFiltter.dart';
-import 'package:AstrowayCustomer/controllers/reviewController.dart';
-import 'package:AstrowayCustomer/controllers/skillController.dart';
-import 'package:AstrowayCustomer/views/addMoneyToWallet.dart';
-import 'package:AstrowayCustomer/views/paymentInformationScreen.dart';
-import 'package:AstrowayCustomer/views/reportTypeScreen.dart';
-import 'package:AstrowayCustomer/views/search_astrologer_screen.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/languageController.dart';
+import 'package:MauhurtikaAstrology/controllers/reportController.dart';
+import 'package:MauhurtikaAstrology/controllers/reportTabFiltter.dart';
+import 'package:MauhurtikaAstrology/controllers/reviewController.dart';
+import 'package:MauhurtikaAstrology/controllers/skillController.dart';
+import 'package:MauhurtikaAstrology/views/addMoneyToWallet.dart';
+import 'package:MauhurtikaAstrology/views/paymentInformationScreen.dart';
+import 'package:MauhurtikaAstrology/views/reportTypeScreen.dart';
+import 'package:MauhurtikaAstrology/views/search_astrologer_screen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
@@ -22,7 +22,7 @@ import 'package:get/get.dart';
 import '../controllers/razorPayController.dart';
 import '../controllers/walletController.dart';
 import '../utils/images.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import 'astrologerProfile/astrologerProfile.dart';
 

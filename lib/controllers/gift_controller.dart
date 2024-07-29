@@ -1,8 +1,8 @@
-import 'package:AstrowayCustomer/controllers/splashController.dart';
-import 'package:AstrowayCustomer/model/gift_model.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/controllers/splashController.dart';
+import 'package:MauhurtikaAstrology/model/gift_model.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class GiftController extends GetxController {
   SplashController splashController = Get.find<SplashController>();

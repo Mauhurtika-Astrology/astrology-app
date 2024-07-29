@@ -1,18 +1,18 @@
 import 'dart:async';
 import 'dart:developer';
-import 'package:AstrowayCustomer/controllers/bottomNavigationController.dart';
-import 'package:AstrowayCustomer/controllers/callController.dart';
-import 'package:AstrowayCustomer/controllers/splashController.dart';
-import 'package:AstrowayCustomer/main.dart';
-import 'package:AstrowayCustomer/model/messsage_model_live.dart';
-import 'package:AstrowayCustomer/model/live_user_model.dart';
+import 'package:MauhurtikaAstrology/controllers/bottomNavigationController.dart';
+import 'package:MauhurtikaAstrology/controllers/callController.dart';
+import 'package:MauhurtikaAstrology/controllers/splashController.dart';
+import 'package:MauhurtikaAstrology/main.dart';
+import 'package:MauhurtikaAstrology/model/messsage_model_live.dart';
+import 'package:MauhurtikaAstrology/model/live_user_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_share/flutter_share.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import '../model/wait_list_model.dart';
 import '../utils/services/api_helper.dart';

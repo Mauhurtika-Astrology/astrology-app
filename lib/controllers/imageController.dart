@@ -2,7 +2,7 @@
 //packages
 import 'package:get/get.dart';
 //contoller
-import 'package:AstrowayCustomer/controllers/networkController.dart';
+import 'package:MauhurtikaAstrology/controllers/networkController.dart';
 
 class ImageControlller extends GetxController {
   NetworkController networkController = Get.find<NetworkController>();

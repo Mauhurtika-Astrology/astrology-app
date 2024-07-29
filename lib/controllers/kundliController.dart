@@ -2,20 +2,20 @@
 
 import 'dart:convert';
 
-import 'package:AstrowayCustomer/controllers/dropDownController.dart';
-import 'package:AstrowayCustomer/controllers/kundliMatchingController.dart';
-import 'package:AstrowayCustomer/model/getPdfKundali_model.dart';
-import 'package:AstrowayCustomer/model/getPdfPrice_model.dart';
-import 'package:AstrowayCustomer/model/kundli.dart';
-import 'package:AstrowayCustomer/model/kundliBasicDetailMode.dart';
-import 'package:AstrowayCustomer/model/kundli_model.dart';
-import 'package:AstrowayCustomer/utils/images.dart';
-import 'package:AstrowayCustomer/utils/services/api_helper.dart';
+import 'package:MauhurtikaAstrology/controllers/dropDownController.dart';
+import 'package:MauhurtikaAstrology/controllers/kundliMatchingController.dart';
+import 'package:MauhurtikaAstrology/model/getPdfKundali_model.dart';
+import 'package:MauhurtikaAstrology/model/getPdfPrice_model.dart';
+import 'package:MauhurtikaAstrology/model/kundli.dart';
+import 'package:MauhurtikaAstrology/model/kundliBasicDetailMode.dart';
+import 'package:MauhurtikaAstrology/model/kundli_model.dart';
+import 'package:MauhurtikaAstrology/utils/images.dart';
+import 'package:MauhurtikaAstrology/utils/services/api_helper.dart';
 import 'package:date_format/date_format.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_share/flutter_share.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:intl/intl.dart';
 import 'package:pdf/widgets.dart' as pw;
 

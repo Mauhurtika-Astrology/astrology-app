@@ -1,13 +1,13 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:AstrowayCustomer/controllers/chatController.dart';
-import 'package:AstrowayCustomer/utils/images.dart';
-import 'package:AstrowayCustomer/views/chat/chat_screen.dart';
+import 'package:MauhurtikaAstrology/controllers/chatController.dart';
+import 'package:MauhurtikaAstrology/utils/images.dart';
+import 'package:MauhurtikaAstrology/views/chat/chat_screen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 import '../../controllers/bottomNavigationController.dart';
 import '../../controllers/timer_controller.dart';

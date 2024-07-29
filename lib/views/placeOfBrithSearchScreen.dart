@@ -1,23 +1,23 @@
 import 'dart:convert';
 
-import 'package:AstrowayCustomer/controllers/IntakeController.dart';
-import 'package:AstrowayCustomer/controllers/callController.dart';
+import 'package:MauhurtikaAstrology/controllers/IntakeController.dart';
+import 'package:MauhurtikaAstrology/controllers/callController.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 
-import 'package:AstrowayCustomer/controllers/kundliController.dart';
-import 'package:AstrowayCustomer/controllers/kundliMatchingController.dart';
-import 'package:AstrowayCustomer/controllers/reportController.dart';
-import 'package:AstrowayCustomer/controllers/search_controller.dart';
-import 'package:AstrowayCustomer/controllers/search_place_controller.dart';
-import 'package:AstrowayCustomer/controllers/userProfileController.dart';
+import 'package:MauhurtikaAstrology/controllers/kundliController.dart';
+import 'package:MauhurtikaAstrology/controllers/kundliMatchingController.dart';
+import 'package:MauhurtikaAstrology/controllers/reportController.dart';
+import 'package:MauhurtikaAstrology/controllers/search_controller.dart';
+import 'package:MauhurtikaAstrology/controllers/search_place_controller.dart';
+import 'package:MauhurtikaAstrology/controllers/userProfileController.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:get/get.dart';
 
 import '../widget/commonAppbar.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 // ignore: must_be_immutable
 class PlaceOfBirthSearchScreen extends StatelessWidget {

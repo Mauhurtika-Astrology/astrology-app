@@ -1,9 +1,9 @@
 import 'dart:developer';
 
-import 'package:AstrowayCustomer/controllers/astromallController.dart';
-import 'package:AstrowayCustomer/controllers/razorPayController.dart';
-import 'package:AstrowayCustomer/controllers/splashController.dart';
-import 'package:AstrowayCustomer/views/webpaymentScreen.dart';
+import 'package:MauhurtikaAstrology/controllers/astromallController.dart';
+import 'package:MauhurtikaAstrology/controllers/razorPayController.dart';
+import 'package:MauhurtikaAstrology/controllers/splashController.dart';
+import 'package:MauhurtikaAstrology/views/webpaymentScreen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 
@@ -11,7 +11,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../controllers/walletController.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import '../utils/services/api_helper.dart';
 import '../widget/commonAppbar.dart';
 

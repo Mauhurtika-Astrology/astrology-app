@@ -1,13 +1,13 @@
 // ignore_for_file: must_be_immutable
 
-import 'package:AstrowayCustomer/controllers/walletController.dart';
-import 'package:AstrowayCustomer/views/astromall/addNewAddressScreen.dart';
-import 'package:AstrowayCustomer/views/astromall/productPurchaseScreen.dart';
-import 'package:AstrowayCustomer/views/paymentInformationScreen.dart';
+import 'package:MauhurtikaAstrology/controllers/walletController.dart';
+import 'package:MauhurtikaAstrology/views/astromall/addNewAddressScreen.dart';
+import 'package:MauhurtikaAstrology/views/astromall/productPurchaseScreen.dart';
+import 'package:MauhurtikaAstrology/views/paymentInformationScreen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 
 import '../../controllers/astromallController.dart';

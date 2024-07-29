@@ -1511,7 +1511,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     child: Row(
                                       children: [
                                         Text(
-                                          'Astro Stories',
+                                          'Stories',
                                           style: Get.theme.primaryTextTheme
                                               .titleMedium!
                                               .copyWith(
@@ -3896,7 +3896,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               );
                       }),
 
-                      ///astro in news
+                      /// news
                       GetBuilder<HomeController>(builder: (homeController) {
                         return homeController.astroNews.length == 0
                             ? SizedBox()

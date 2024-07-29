@@ -2,16 +2,16 @@
 
 import 'dart:io';
 
-import 'package:AstrowayCustomer/controllers/reportController.dart';
-import 'package:AstrowayCustomer/utils/images.dart';
-import 'package:AstrowayCustomer/views/reportInTakeFormScreen.dart';
+import 'package:MauhurtikaAstrology/controllers/reportController.dart';
+import 'package:MauhurtikaAstrology/utils/images.dart';
+import 'package:MauhurtikaAstrology/views/reportInTakeFormScreen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:get/get.dart';
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 
 class ReportTypeScreen extends StatelessWidget {
   final String astrologerName;

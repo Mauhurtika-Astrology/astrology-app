@@ -1,12 +1,12 @@
-import 'package:AstrowayCustomer/controllers/kundliController.dart';
-import 'package:AstrowayCustomer/controllers/walletController.dart';
-import 'package:AstrowayCustomer/views/placeOfBrithSearchScreen.dart';
-import 'package:AstrowayCustomer/widget/drodownWidget.dart';
+import 'package:MauhurtikaAstrology/controllers/kundliController.dart';
+import 'package:MauhurtikaAstrology/controllers/walletController.dart';
+import 'package:MauhurtikaAstrology/views/placeOfBrithSearchScreen.dart';
+import 'package:MauhurtikaAstrology/widget/drodownWidget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:AstrowayCustomer/utils/global.dart' as global;
+import 'package:MauhurtikaAstrology/utils/global.dart' as global;
 import 'package:responsive_sizer/responsive_sizer.dart';
 
 class KundliBornPlaceWidget extends StatefulWidget {
